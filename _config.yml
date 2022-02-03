@@ -21,7 +21,7 @@
 title: fjtcin
 email: fjtcinzxh@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  THIS IS FJTCIN'S PERSONAL PAGE.
+  This is a personal website.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 show_downloads: false
