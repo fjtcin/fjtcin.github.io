@@ -3,10 +3,12 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: Home Page
+title: 主页
 ---
 
-[About Me]({% link about.md %})
+[我的知乎](https://www.zhihu.com/people/fjtcin)
 
-[简体中文]({% link cn.md %})
+[陈发来线代听课笔记]({% link cn/linear-algebra-and-analytic-geometry.md %})
+
+[English]({% link index.md %})
 {: style="text-align: center"}
