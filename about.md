@@ -8,10 +8,6 @@ layout: page
 
 Mail: [fjtcinzxh@gmail.com](mailto:fjtcinzxh@gmail.com)
 
-```text
-Please feel free to mail me if you see ANY error in the website.
-```
-
 ## Education
 
 **2021 - NOW:** Obtaining a BS Degree, [Computer Science](http://en.cs.ustc.edu.cn/), [Special Class for the Gifted Young](http://en.scgy.ustc.edu.cn/), [University of Science and Technology of China](http://en.ustc.edu.cn/)
