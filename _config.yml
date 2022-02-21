@@ -34,6 +34,7 @@ remote_theme: pages-themes/primer@v0.6.0
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
+  - jemoji
 markdown: kramdown
 kramdown:
     math_engine: katex

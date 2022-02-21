@@ -25,7 +25,7 @@ layout: page
 * 硬件系统：可以去 Apple。
 * 自动驾驶：Google、Tesla 等都在做，还行。
 * 数据挖掘：较古老，人太多，卷，内容也逐渐偏水。(deprecated)
-* 知识图谱：类似于数据挖掘。
+* 知识图谱：类似于数据挖掘。(deprecated)
 * 人工智能：偏向 DS，不利于在 industry 中发展（coding 能力不够）；学术发展：太卷了 (GPA -0.3)，但做得好的很强。
   * 强化学习：应用较少。
   * 计算机视觉：做的人太多，卷，且偏数学。(deprecated)
@@ -38,6 +38,6 @@ layout: page
 ```text
 Febuary, 2022; Hefei, China;
 
-Please feel free to add a comment if you witness ANY error.
+Please feel free to add a comment if you have ANY suggestion.
 Last modified on 2/20/2022
 ```

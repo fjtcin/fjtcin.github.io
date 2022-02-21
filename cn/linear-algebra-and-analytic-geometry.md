@@ -40,28 +40,17 @@ layout: page
 四点 \\(A,B,C,D\\) 共面 \\(\iff \overrightarrow{OA}=\lambda'\overrightarrow{OB}+\mu'\overrightarrow{OC}+\nu'\overrightarrow{OD}, \lambda'+\mu'+\nu'=1, O\\) 是空间中任意一点。
 
 <script type="text/tikz">
-\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1cm,y=1cm]
-\begin{axis}[
-x=1cm,y=1cm,
-axis lines=middle,
-ymajorgrids=true,
-xmajorgrids=true,
-xmin=-8.92,
-xmax=8.919999999999998,
-ymin=-9.040000000000003,
-ymax=4.480000000000001,
-xtick={-8,-7,...,8},
-ytick={-9,-8,...,4},]
-\clip(-8.92,-9.04) rectangle (8.92,4.48);
-\draw [line width=2pt,domain=-8.92:8.92] plot(\x,{(-0.4528--2.8*\x)/2.64});
+\definecolor{ududff}{rgb}{0.30196078431372547,0.30196078431372547,1}
+\begin{tikzpicture}[scale=1]
+\clip(-8.92,-3.04) rectangle (4.92,2.48);
+\draw [line width=2pt,domain=-3.92:3.92] plot(\x,{(-0.4528--2.8*\x)/2.64});
 \begin{scriptsize}
 \draw [fill=ududff] (-1.46,-1.72) circle (2.5pt);
 \draw[color=ududff] (-1.3,-1.29) node {$A$};
 \draw [fill=ududff] (1.18,1.08) circle (2.5pt);
 \draw[color=ududff] (1.34,1.51) node {$B$};
-\draw[color=black] (3.94,4.39) node {$f$};
+\draw[color=black] (3.84,4.29) node {$f$};
 \end{scriptsize}
-\end{axis}
 \end{tikzpicture}
 </script>
 
