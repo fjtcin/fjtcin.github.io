@@ -33,4 +33,4 @@ Posts are listed below.
 ---
 
 [English]({% link index.md %})
-{: style="text-align: center"}
+{: style="text-align:center;"}

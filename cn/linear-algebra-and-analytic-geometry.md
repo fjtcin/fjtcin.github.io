@@ -52,6 +52,7 @@ title: 陈发来线代听课笔记
 \definecolor{xdxdff}{rgb}{0.49019607843137253,0.49019607843137253,1}
 \definecolor{ududff}{rgb}{0.30196078431372547,0.30196078431372547,1}
 \begin{tikzpicture}[scale=1]
+\clip(-3,-4.5) rectangle (11,1.4);
 \draw [line width=1pt] (3.96,0.96)-- (-0.06,-4.12);
 \draw [line width=1pt] (3.96,0.96)-- (7.22,-4.08);
 \draw [line width=1pt,domain=-8.92:16.68] plot(\x,{(-29.9912--0.04*\x)/7.28});
@@ -68,15 +69,16 @@ title: 陈发来线代听课笔记
 \end{scriptsize}
 \end{tikzpicture}
 </script>
-\\(A\\) 是直线 \\(BC\\) 上一点。\\(O\\) 是平面上任意一点。
+\\(A\\) 是直线 \\(BC\\) 上一点（称作定比分点）。\\(O\\) 是平面上任意一点。
 </div>
 
 $$
 \overrightarrow{OA}=\lambda'\overrightarrow{OB}+\mu'\overrightarrow{OC}\\
 \lambda'+\mu'=1\\
-\lambda'=\frac{|AC|}{|AC|+|AB|}
+\lambda'=\frac{\lvert AC \rvert}{\lvert AC \rvert+\lvert AB \rvert}
 $$
 
+<div align="center">
 <div style="display:inline-block;">
 <script type="text/tikz">
 \definecolor{ffqqtt}{rgb}{1,0,0.2}
@@ -84,7 +86,7 @@ $$
 \definecolor{zzttqq}{rgb}{0.6,0.2,0}
 \definecolor{xdxdff}{rgb}{0.49019607843137253,0.49019607843137253,1}
 \definecolor{ududff}{rgb}{0.30196078431372547,0.30196078431372547,1}
-\begin{tikzpicture}[scale=1]
+\begin{tikzpicture}[scale=0.75]
 \fill[line width=2pt,color=zzttqq,fill=zzttqq,fill opacity=0.10000000149011612] (0.32,4.78) -- (-4.06,-1.8) -- (5.3,-1.76) -- cycle;
 \fill[line width=2pt,color=qqccqq,fill=qqccqq,fill opacity=0.1] (0.32,4.78) -- (0.54,0.92) -- (-4.06,-1.8) -- cycle;
 \fill[line width=2pt,color=ffqqtt,fill=ffqqtt,fill opacity=0.1] (0.32,4.78) -- (0.54,0.92) -- (5.3,-1.76) -- cycle;
@@ -110,7 +112,6 @@ $$
 \end{tikzpicture}
 </script>
 </div>
-
 <div style="display:inline-block;">
 <script type="text/tikz">
 \definecolor{ffqqtt}{rgb}{1,0,0.2}
@@ -118,7 +119,7 @@ $$
 \definecolor{zzttqq}{rgb}{0.6,0.2,0}
 \definecolor{xdxdff}{rgb}{0.49019607843137253,0.49019607843137253,1}
 \definecolor{ududff}{rgb}{0.30196078431372547,0.30196078431372547,1}
-\begin{tikzpicture}[scale=1]
+\begin{tikzpicture}[scale=0.75]
 \fill[line width=2pt,color=zzttqq,fill=zzttqq,fill opacity=0.10000000149011612] (0.32,4.78) -- (-4.06,-1.8) -- (5.3,-1.76) -- cycle;
 \fill[line width=2pt,color=qqccqq,fill=qqccqq,fill opacity=0.1] (0.32,4.78) -- (-4.98,3.06) -- (-4.06,-1.8) -- cycle;
 \fill[line width=2pt,color=ffqqtt,fill=ffqqtt,fill opacity=0.1] (0.32,4.78) -- (-4.98,3.06) -- (5.3,-1.76) -- cycle;
@@ -144,9 +145,8 @@ $$
 \end{tikzpicture}
 </script>
 </div>
-
 \\(A\\) 是平面 \\(BCD\\) 上一点。\\(O\\) 是空间中任意一点。
-{: align="center"}
+</div>
 
 $$
 \overrightarrow{OA}=\lambda'\overrightarrow{OB}+\mu'\overrightarrow{OC}+\nu'\overrightarrow{OD}\\
@@ -156,7 +156,15 @@ $$
 
 > 证明：留做习题。
 
-特别地，当 \\(A\\) 是三角形重心时，
+特别地，当 \\(A\\) 是三角形重心时，\\(\overrightarrow{OA}=\frac{1}{3}\overrightarrow{OB}+\frac{1}{3}\overrightarrow{OC}+\frac{1}{3}\overrightarrow{OD}\\)
+
+当 \\(A\\) 是三角形内心时，\\(\overrightarrow{OA}=\frac{\lvert CD \rvert\overrightarrow{OB}+\lvert DB \rvert\overrightarrow{OC}+\lvert BC \rvert\overrightarrow{OD}}{\lvert BC \rvert+\lvert CD \rvert+\lvert DB \rvert}\\)
+
+当 \\(O, A\\) 重合时，\\(\bm{0}=\lambda'\overrightarrow{OB}+\mu'\overrightarrow{OC}+\nu'\overrightarrow{OD}\\)
+
+当 \\(O\\) 在三角形的边上时，退化为定比分点之情形。
+
+当 \\(O\\) 在三角形的顶点上时，退化为 \\(\overrightarrow{OB}=\overrightarrow{OB}\\)
 
 ---
 

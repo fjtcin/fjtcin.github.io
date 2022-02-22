@@ -11,4 +11,4 @@ title: Home Page
 [About Me]({% link about.md %})
 
 [简体中文]({% link cn.md %})
-{: style="text-align: center"}
+{: style="text-align:center;"}
