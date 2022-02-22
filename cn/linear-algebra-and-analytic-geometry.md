@@ -1,5 +1,6 @@
 ---
 layout: page
+title: 陈发来线代听课笔记
 ---
 
 # [陈发来线代](https://www.icourses.cn/sCourse/course_3066.html)听课笔记
