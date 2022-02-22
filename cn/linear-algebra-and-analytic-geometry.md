@@ -52,7 +52,6 @@ title: 陈发来线代听课笔记
 \definecolor{xdxdff}{rgb}{0.49019607843137253,0.49019607843137253,1}
 \definecolor{ududff}{rgb}{0.30196078431372547,0.30196078431372547,1}
 \begin{tikzpicture}[scale=1]
-\clip(-3,-4.5) rectangle (11,1.4);
 \draw [line width=1pt] (3.96,0.96)-- (-0.06,-4.12);
 \draw [line width=1pt] (3.96,0.96)-- (7.22,-4.08);
 \draw [line width=1pt,domain=-8.92:16.68] plot(\x,{(-29.9912--0.04*\x)/7.28});
@@ -78,7 +77,7 @@ $$
 \lambda'=\frac{|AC|}{|AC|+|AB|}
 $$
 
-<div style="width: 50%; height: 50%; float:left;">
+<div style="display:inline-block;">
 <script type="text/tikz">
 \definecolor{ffqqtt}{rgb}{1,0,0.2}
 \definecolor{qqccqq}{rgb}{0,0.8,0}
@@ -112,7 +111,7 @@ $$
 </script>
 </div>
 
-<div style="width: 50%; height: 50%; float:right;">
+<div style="display:inline-block;">
 <script type="text/tikz">
 \definecolor{ffqqtt}{rgb}{1,0,0.2}
 \definecolor{qqccqq}{rgb}{0,0.8,0}
@@ -146,9 +145,8 @@ $$
 </script>
 </div>
 
-<div style="width: 100%; height: 50%; clear:both; text-align:center;">
 \\(A\\) 是平面 \\(BCD\\) 上一点。\\(O\\) 是空间中任意一点。
-</div>
+{: align="center"}
 
 $$
 \overrightarrow{OA}=\lambda'\overrightarrow{OB}+\mu'\overrightarrow{OC}+\nu'\overrightarrow{OD}\\
