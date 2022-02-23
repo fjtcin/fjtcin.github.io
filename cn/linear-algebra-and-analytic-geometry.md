@@ -9,6 +9,9 @@ title: 陈发来线代听课笔记
 ```text
 《线性代数与解析几何》 第二版 陈发来、陈效群、李思敏、王新茂 高等教育出版社 2015/8/1
  I  S  B  N： 978-7-04-043312-8  定价：29.80
+
+视频中的错误：
+
 ```
 
 ## 目录
@@ -158,6 +161,8 @@ $$
 
 > 证明：留做习题。
 
+我们将 \\(\lambda', \mu', \nu'\\) 称为 \\(A\\) 关于 \\(\triangle BCD\\) 的面积坐标。看上去这个坐标有3个分量，实际上独立的只有2个，因为 \\(\lambda'+\mu'+\nu'=1\\)
+
 特别地，当 \\(A\\) 是三角形重心时，\\(\overrightarrow{OA}=\frac{1}{3}\overrightarrow{OB}+\frac{1}{3}\overrightarrow{OC}+\frac{1}{3}\overrightarrow{OD}\\)
 
 当 \\(A\\) 是三角形内心时，\\(\overrightarrow{OA}=\frac{\lvert CD \rvert\overrightarrow{OB}+\lvert DB \rvert\overrightarrow{OC}+\lvert BC \rvert\overrightarrow{OD}}{\lvert BC \rvert+\lvert CD \rvert+\lvert DB \rvert}\\)
@@ -170,8 +175,18 @@ $$
 
 ---
 
+重心定理：三条中线交于一点。
+
+> 证明：由**例 1.1.3** 知，\\(BE\\) 与 \\(AD\\) 的交点 \\(G\\) 满足 \\(\overrightarrow{AG}=\frac{2}{3}\overrightarrow{AD}\\)
+>
+> 同理，另一条中线与 \\(AD\\) 的交点 \\(G'\\) 满足 \\(\overrightarrow{AG'}=\frac{2}{3}\overrightarrow{AD}\\)
+>
+> 故 \\(G\\) 与 \\(G'\\) 是同一点。
+
+---
+
 ```text
-Febuary, 2022; Suzhou, China;
+Febuary, 2022; Suzhou&Hefei, China;
 Dedicated to her with love.
 
 Please feel free to add a comment if you witness ANY error.
