@@ -75,7 +75,8 @@ title: 陈发来线代听课笔记
 $$
 \overrightarrow{OA}=\lambda'\overrightarrow{OB}+\mu'\overrightarrow{OC}\\
 \lambda'+\mu'=1\\
-\lambda'=\frac{\lvert AC \rvert}{\lvert AC \rvert+\lvert AB \rvert}
+\lambda'=\overline{AC}\bigg/\overline{BC}\\
+\text{note that }\overline{AC}=x_C-x_A\text{ (the directed line segment), so }\overline{BA}+\overline{AC}\equiv \overline{BC}
 $$
 
 <div align="center">
@@ -151,7 +152,8 @@ $$
 $$
 \overrightarrow{OA}=\lambda'\overrightarrow{OB}+\mu'\overrightarrow{OC}+\nu'\overrightarrow{OD}\\
 \lambda'+\mu'+\nu'=1\\
-\lambda'=\frac{A\left(\triangle ACD\right)}{A\left(\triangle ABC\right)+A\left(\triangle ACD\right)+A\left(\triangle ABD\right)}
+\lambda'=A\left(\triangle ACD\right)\bigg/A\left(\triangle BCD\right)\\
+\text{note that the area can be negative here, so }A\left(\triangle ABC\right)+A\left(\triangle ACD\right)+A\left(\triangle ABD\right)\equiv A\left(\triangle BCD\right)
 $$
 
 > 证明：留做习题。
@@ -173,5 +175,5 @@ Febuary, 2022; Suzhou, China;
 Dedicated to her with love.
 
 Please feel free to add a comment if you witness ANY error.
-Last modified on 2/22/2022, UPDATING...
+Last modified on 2/23/2022, UPDATING...
 ```
