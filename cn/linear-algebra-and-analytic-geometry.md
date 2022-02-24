@@ -165,7 +165,7 @@ $$
 
 特别地，当 \\(A\\) 是三角形重心时，\\(\overrightarrow{OA}=\frac{1}{3}\overrightarrow{OB}+\frac{1}{3}\overrightarrow{OC}+\frac{1}{3}\overrightarrow{OD}\\)
 
-当 \\(A\\) 是三角形内心时，\\(\overrightarrow{OA}=\frac{\lvert CD \rvert\overrightarrow{OB}+\lvert DB \rvert\overrightarrow{OC}+\lvert BC \rvert\overrightarrow{OD}}{\lvert BC \rvert+\lvert CD \rvert+\lvert DB \rvert}\\)
+当 \\(A\\) 是三角形内心时，\\(\overrightarrow{OA}=\frac{\lvert CD\rvert\overrightarrow{OB}+\lvert DB\rvert\overrightarrow{OC}+\lvert BC\rvert\overrightarrow{OD}}{\lvert BC\rvert+\lvert CD\rvert+\lvert DB\rvert}\\)
 
 当 \\(O, A\\) 重合时，\\(\bm{0}=\lambda'\overrightarrow{OB}+\mu'\overrightarrow{OC}+\nu'\overrightarrow{OD}\\)
 
@@ -183,6 +183,75 @@ $$
 >
 > 故 \\(G\\) 与 \\(G'\\) 是同一点。
 
+### 1.4&emsp;向量的向量积
+
+#### 1.4.1&emsp;向量积的定义与性质
+
+（直角三棱锥的斜面面积的平方是其他三个面面积的平方和）在直角三棱锥 \\(O-ABC\\) 中，\\(A^2\left(\triangle ABC\right)=A^2\left(\triangle OAB\right)+A^2\left(\triangle OBC\right)+A^2\left(\triangle OCA\right)\\)
+
+> 证明：记 \\(\bm{a}=\overrightarrow{OA}, \bm{b}=\overrightarrow{OB}, \bm{c}=\overrightarrow{OC}, a=\lvert\bm{a}\rvert, b=\lvert\bm{b}\rvert, c=\lvert\bm{c}\rvert\\)
+>
+> 则 \\(\overrightarrow{AB}=\bm{b}-\bm{a}, \overrightarrow{AC}=\bm{c}-\bm{a}, A\left(\triangle OAB\right)=\frac{1}{2}ab, A\left(\triangle OBC\right)=\frac{1}{2}bc, A\left(\triangle OCA\right)=\frac{1}{2}ac\\)
+>
+> \\(A^2\left(\triangle ABC\right)=\lvert\frac{1}{2}\left(\bm{b}\times\bm{c}-\bm{b}\times\bm{a}-\bm{a}\times\bm{c}\right)\rvert^2\\)
+>
+> 由于 \\(\bm{a}, \bm{b}, \bm{c}\\) 两两垂直，于是 \\(\bm{b}\times\bm{c}, \bm{b}\times\bm{a}, \bm{a}\times\bm{c}\\) 两两垂直，所以
+>
+> \\(A^2\left(\triangle ABC\right)=\frac{1}{4}\left(\lvert\bm{b}\times\bm{c}\rvert^2+\lvert\bm{b}\times\bm{a}\rvert^2+\lvert\bm{a}\times\bm{c}\rvert^2\right)=\frac{1}{4}\left(b^2c^2+b^2a^2+a^2c^2\right)\\)
+>
+> \\(=A^2\left(\triangle OAB\right)+A^2\left(\triangle OBC\right)+A^2\left(\triangle OCA\right)\\)
+
+#### 1.4.2&emsp;直角坐标系下向量积的计算
+
+三角形的三个顶点 \\(A\left(x_1, y_1, z_1\right), B\left(x_2, y_2, z_2\right), C\left(x_3, y_3, z_3\right)\\)，则 \\(A\left(\triangle ABC\right)=\frac{1}{2}\lvert\overrightarrow{AB}\times\overrightarrow{AC}\rvert\\)
+
+特别地，当 \\(A=\left(x_1, y_1\right), B=\left(x_2, y_2\right), C=\left(x_3, y_3\right)\\) 时，
+
+$$
+A\left(\triangle ABC\right)
+=\frac{1}{2}\left\lvert\begin{vmatrix}
+\bm{i} & \bm{j} & \bm{k}\\
+x_2-x_1 & y_2-y_1 & 0\\
+x_3-x_1 & y_3-y_1 & 0
+\end{vmatrix}\right\rvert
+=\frac{1}{2}\left\lvert\begin{vmatrix}
+x_2-x_1 & y_2-y_1\\
+x_3-x_1 & y_3-y_1
+\end{vmatrix}\right\rvert
+=\frac{1}{2}\left\lvert\begin{vmatrix}
+x_1 & x_2 & x_3\\
+y_1 & y_2 & y_3\\
+1 & 1 & 1
+\end{vmatrix}\right\rvert
+$$
+
+同样地，四面体的四个顶点 \\(A\left(x_1, y_1, z_1\right), B\left(x_2, y_2, z_2\right), C\left(x_3, y_3, z_3\right), D\left(x_4, y_4, z_4\right)\\)，有
+
+$$
+V\left(ABCD\right)=\frac{1}{6}\left\lvert\begin{vmatrix}
+x_1 & x_2 & x_3 & x_4\\
+y_1 & y_2 & y_3 & y_4\\
+z_1 & z_2 & z_3 & z_4\\
+1 & 1 & 1 & 1
+\end{vmatrix}\right\rvert
+$$
+
+### 1.5&emsp;向量的混合积
+
+#### 1.5.1&emsp;混合积的定义
+
+设不共面向量 \\(\bm{a}, \bm{b}, \bm{c}\\)，求 \\(\bm{x}\\) 满足 \\(\bm{a}\cdot\bm{x}=f, \bm{b}\cdot\bm{x}=g, \bm{c}\cdot\bm{x}=h\\)，其中 \\(f, g, h\\) 是给定的实数。
+
+解：设 \\(\bm{x}=\lambda\bm{a}+\mu\bm{b}+\nu\bm{c}\\)，代入3个条件式得3个方程，解出 \\(\lambda, \mu, \nu\\) 即可。
+
+上面的方法是最经典的方法，但极其难以计算。
+
+注意到 [\\(\rm{a}, \rm{b}, \rm{c}\\) 共面等价于 \\(\rm{a}\times\rm{b}, \rm{b}\times\rm{c}, \rm{c}\times\rm{a}\\) 共面](https://www.zhihu.com/question/450742288/answer/2362517022)，故设 \\(\bm{x}=\lambda\bm{a}\times\bm{b}+\mu\bm{b}\times\bm{c}+\nu\bm{c}\times\bm{a}\\)，则
+
+$$
+\bm{a}\cdot\bm{x}=\mu\bm{a}\cdot\bm{b}\times\bm{c}=f\implies\mu=\frac{f}{\bm{a}\cdot\bm{b}\times\bm{c}}
+$$
+
 ---
 
 ```text
@@ -190,5 +259,5 @@ Febuary, 2022; Suzhou&Hefei, China;
 Dedicated to her with love.
 
 Please feel free to add a comment if you witness ANY error.
-Last modified on 2/23/2022, UPDATING...
+Last modified on 2/24/2022, UPDATING...
 ```
