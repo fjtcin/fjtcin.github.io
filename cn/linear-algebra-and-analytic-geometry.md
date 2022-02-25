@@ -252,6 +252,14 @@ $$
 \bm{a}\cdot\bm{x}=\mu\bm{a}\cdot\bm{b}\times\bm{c}=f\implies\mu=\frac{f}{\bm{a}\cdot\bm{b}\times\bm{c}}
 $$
 
+### 1.7&emsp;复数
+
+#### 1.7.2&emsp;复数的几何表示
+
+n倍角公式：利用 \\(\cos n\theta+i\sin n\theta=\left(\cos\theta+i\sin\theta\right)^n\\)
+
+## 2&emsp;空间解析几何
+
 ---
 
 ```text
