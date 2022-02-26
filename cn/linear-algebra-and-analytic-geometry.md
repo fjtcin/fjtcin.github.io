@@ -11,7 +11,7 @@ title: 陈发来线代听课笔记
  I  S  B  N： 978-7-04-043312-8  定价：29.80
 
 视频中的错误：
-
+第二章-第1课 —— 直线与平面方程 —— 22:22：implicit 拼错。
 ```
 
 ## 目录
@@ -236,6 +236,8 @@ z_1 & z_2 & z_3 & z_4\\
 \end{vmatrix}\right\rvert
 $$
 
+**此处特别注意行列式中元素的顺序。**
+
 ### 1.5&emsp;向量的混合积
 
 #### 1.5.1&emsp;混合积的定义
@@ -260,6 +262,30 @@ n倍角公式：利用 \\(\cos n\theta+i\sin n\theta=\left(\cos\theta+i\sin\thet
 
 ## 2&emsp;空间解析几何
 
+### 2.1&emsp;直线与平面
+
+#### 2.1.2&emsp;平面的方程
+
+parametric equation: \\(\overrightarrow{OP}=\overrightarrow{OA}+s\overrightarrow{AB}+t\overrightarrow{AC}\\), non-unique
+
+implicit equation (no parameters): \\(Ax+By+Cz+D=0\\), unique
+
+**例 2.1.4** 已知三点，若求的是隐式方程，则可直接设 \\(\pi: Ax+By+Cz+D=0\\)，代入三点坐标解除一组 \\(A,B,C,D\\) 即可。
+
+#### 2.1.5&emsp;两直线的位置关系
+
+\\(A,B,\bm{u},\bm{v}\\) 分别是两直线上的点与方向向量，*公垂线 \\(\overrightarrow{CD}\\) 为 \\(\overrightarrow{AB}\\) 在 \\(\bm{u}\times\bm{v}\\) 方向上的投影*。
+
+$$
+\lvert\overrightarrow{CD}\rvert=\frac{\lvert\bm{u}\times\bm{v}\cdot\overrightarrow{AB}\rvert}{\lvert\bm{u}\times\bm{v}\rvert}
+$$
+
+所谓 *\\(\overrightarrow{AB}\\) 在 \\(\bm{u}\times\bm{v}\\) 方向上的投影*是指，在图 2.6 中，
+
+$$
+\frac{\lvert\bm{u}\times\bm{v}\cdot\overrightarrow{AB}\rvert}{\lvert\bm{u}\times\bm{v}\rvert}=\frac{\lvert\bm{u}\times\bm{v}\cdot(\overrightarrow{AC}+\overrightarrow{CD}+\overrightarrow{DB})\rvert}{\lvert\bm{u}\times\bm{v}\rvert}=\frac{\lvert\bm{u}\times\bm{v}\cdot\overrightarrow{CD}\rvert}{\lvert\bm{u}\times\bm{v}\rvert}=\lvert\overrightarrow{CD}\rvert
+$$
+
 ---
 
 ```text
@@ -267,5 +293,5 @@ Febuary, 2022; Suzhou&Hefei, China;
 Dedicated to her with love.
 
 Please feel free to add a comment if you witness ANY error.
-Last modified on 2/24/2022, UPDATING...
+Last modified on 2/26/2022, UPDATING...
 ```
