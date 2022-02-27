@@ -44,13 +44,13 @@ ISBN 978-7-01-003441-6-01
 
 Informally known as the "apples and oranges" fallacy, a false analogy uses unsound comparisons. [[1]](https://en.wikipedia.org/wiki/Fallacy#False_analogy) A comparison of apples and oranges occurs when two items or groups of items are compared that cannot be practically compared, typically because of inherent, fundamental and/or qualitative differences between the items. [[2]](https://en.wikipedia.org/wiki/Apples_and_oranges)
 
-虽然人和马都是动物，但伤害马的人是多数人并不能推出伤害人的也是多数人。而且这两个事件并不能完全形成类比，因为动作施加方都是人，但要做到好的类比应考察马伤害马的情况。
+虽然人和马都是动物，但伤害马的人是多数并不能推出伤害人的也是多数。而且这两个事件并不能完全形成类比，因为动作施加方都是人。如要做到好的类比应考察马伤害马的情况。
 
 不过，虽然这个类比有所瑕疵，但美勒托的断言实在过于离谱，以至于这个类比从宏观上粗看是有合理性的。
 
 > 美勒托，为什么你这般年纪的人会比我这般年纪的人聪明得多？你发现在青年们最接近的邻居中，恶人总是对他们产生坏的影响，好人总是产生好的影响，而我竟会如此可悲，以至于不知道自己若是腐蚀某个同伴的品格，就得冒着从他那里受到伤害的危险吗？否则就没有其他理由能使我承认这种巨大的冒犯是有意的了。(25:E)
 
-现在腐蚀他人品格的人逐渐聚集于互联网上，这很大程度上规避了从他人受到伤害的危险——对方并不能动你一分一毫。但这里苏格拉底的论证不够充分：他断言没有其他理由能使他承认这种巨大的冒犯是有意义的了。但事实上，古今中外从来不缺少刻意腐蚀他人品格的人，如纳粹德国的希特勒，当今世界恐怖组织头目等。这些人通过腐蚀他人做到完全控制他们的人格，以获取至高无上的权利。又如各种传销组织，他们通过不断地洗脑以获取大量非法经济利益。这些人都是为了满足自己的私欲而腐蚀他人品格、以更好地利用他人。
+现在腐蚀他人品格的人逐渐聚集于互联网上，这很大程度上规避了从他人受到伤害的危险——对方并不能动你一分一毫。但这里苏格拉底的论证不够充分：他断言没有其他理由能使他承认这种巨大的冒犯是有意义的。事实上，古今中外从来不缺少刻意腐蚀他人品格的人，如纳粹德国的希特勒，当今世界恐怖组织头目等。这些人通过腐蚀他人达到完全控制他们的灵魂，以获取至高无上的权利。又如各种传销组织，他们通过不断地洗脑以获取大量非法经济利益。这些人都是为了满足自己的私欲而腐蚀他人品格、利用他人价值。
 
 ---
 
@@ -58,7 +58,7 @@ Informally known as the "apples and oranges" fallacy, a false analogy uses unsou
 Febuary, 2022; Hefei, China;
 
 Please feel free to add a comment if you have ANY idea.
-Last modified on 2/24/2022, UPDATING...
+Last modified on 2/27/2022, UPDATING...
 
-最近更新：21:D 22:A 22:C 23:B
+recently updated: 25:B, 25:E
 ```
