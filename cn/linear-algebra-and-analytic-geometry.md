@@ -32,7 +32,7 @@ title: 陈发来线代听课笔记
 
 三点 \\(A,B,C\\) 共线 \\(\iff \overrightarrow{OA}=\lambda'\overrightarrow{OB}+\mu'\overrightarrow{OC}, \lambda'+\mu'=1, O\\) 是平面中任意一点。
 
-> Proof：\\(\overrightarrow{AB}\\) are parallel to \\(\overrightarrow{AC}\\)
+> Proof: \\(\overrightarrow{AB}\\) are parallel to \\(\overrightarrow{AC}\\)
 >
 > \\(\iff\\) there exists \\(\lambda, \mu\\) (not all 0) such that \\(\lambda\overrightarrow{AB}+\mu\overrightarrow{AC}=0\\)
 >
@@ -288,6 +288,103 @@ $$
 \frac{\lvert\bm{u}\times\bm{v}\cdot\overrightarrow{AB}\rvert}{\lvert\bm{u}\times\bm{v}\rvert}=\frac{\lvert\bm{u}\times\bm{v}\cdot(\overrightarrow{AC}+\overrightarrow{CD}+\overrightarrow{DB})\rvert}{\lvert\bm{u}\times\bm{v}\rvert}=\frac{\lvert\bm{u}\times\bm{v}\cdot\overrightarrow{CD}\rvert}{\lvert\bm{u}\times\bm{v}\rvert}=\lvert\overrightarrow{CD}\rvert
 $$
 
+### 2.2&emsp;空间曲线与曲面
+
+建立空间曲面方程的方法：用向量来表示几何关系，再坐标化即可。
+
+书上指出了给定准线参数方程时各曲面的方程。拓展内容是，我们在准线方程是隐式的情况下写出曲面满足的方程。
+#### 2.2.2&emsp;柱面
+
+准线方程
+
+$$
+\left\{\begin{matrix}
+f\left(x,y,z\right)=0\\
+g\left(x,y,z\right)=0
+\end{matrix}\right.
+$$
+
+母线方向 \\(\bm{u}=\left(u_1,u_2,u_3\right)\\)
+
+设 \\(P\left(x,y,z\right)\\) 曲面上任意一点，\\(Q\left(x_0,y_0,z_0\right)\\) 是其对应的准线上的点，则
+
+$$
+\left\{\begin{matrix}
+x=x_0+su_1,y=y_0+su_2,z=z_0+su_3\\
+f\left(x_0,y_0,z_0\right)=0\\
+g\left(x_0,y_0,z_0\right)=0
+\end{matrix}\right.
+$$
+
+即可得曲面方程为
+
+$$
+\left\{\begin{matrix}
+f\left(x-su_1,y-su_2,z-su_3\right)=0\\
+g\left(x-su_1,y-su_2,z-su_3\right)=0
+\end{matrix}\right.
+$$
+
+以上内容可直接应用于 **例 2.2.5** 的求解。
+
+#### 2.2.3&emsp;锥面
+
+准线方程
+
+$$
+\left\{\begin{matrix}
+f\left(x,y,z\right)=0\\
+g\left(x,y,z\right)=0
+\end{matrix}\right.
+$$
+
+顶点 \\(A\left(a_1,a_2,a_3\right)\\)
+
+设 \\(P\left(x,y,z\right)\\) 曲面上任意一点，\\(Q\left(x_0,y_0,z_0\right)\\) 是其对应的准线上的点，故母线方向 \\(\bm{u}=\left(u_1,u_2,u_3\right)=\left(x_0-a_1,y_2-a_2,z_0-a_3\right)\\)
+
+$$
+\left\{\begin{matrix}
+x=a_1+su_1,y=a_2+su_2,z=a_3+su_3\\
+f\left(x_0,y_0,z_0\right)=0\\
+g\left(x_0,y_0,z_0\right)=0
+\end{matrix}\right.
+$$
+
+即可得曲面方程为
+
+$$
+\left\{\begin{matrix}
+f\left(\frac{x-\left(1-s\right)a_1}{s},\frac{y-\left(1-s\right)a_2}{s},\frac{z-\left(1-s\right)a_3}{s}\right)=0\\
+g\left(\frac{x-\left(1-s\right)a_1}{s},\frac{y-\left(1-s\right)a_2}{s},\frac{z-\left(1-s\right)a_3}{s}\right)=0
+\end{matrix}\right.
+$$
+
+以上内容可直接应用于 **例 2.2.7** 的求解。
+
+## English-Chinese Technical Terms Table
+
+读者可按 `Ctrl + F` 检索。
+
+| English | 简体中文 |
+| :---: | :---: |
+| Quadric surface | 二次曲面 |
+| Degenerate quadric | 柱面 |
+| Apex | （锥面的）顶点 |
+| Generatrix/generator/ruling | 母线 |
+| Directrix | 准线 |
+| Ruled surface | 直纹面 |
+| Right circular cylinder | 圆柱面 |
+| Elliptic cylinder | 椭圆柱面 |
+| Hyperbolic cylinder | 双曲柱面 |
+| Parabolic cylinder | 抛物柱面 |
+| Ellipsoid | 椭球面 |
+| Hyperboloid of one sheet | 单叶双曲面 |
+| Hyperboloid of two sheets | 双叶双曲面 |
+| Elliptic cone (or conical quadric) | 二次锥面 |
+| Hyperbolic cylinder | 椭圆抛物面 |
+| Hyperbolic paraboloid | 双曲抛物面（马鞍面） |
+| Surface of revolution | 旋转曲面 |
+
 ---
 
 ```text
@@ -295,5 +392,5 @@ Febuary, 2022; Suzhou&Hefei, China;
 Dedicated to her with love.
 
 Please feel free to add a comment if you witness ANY error.
-Last modified on 2/26/2022, UPDATING...
+Last modified on 2/28/2022, UPDATING...
 ```
