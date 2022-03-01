@@ -361,6 +361,12 @@ $$
 
 以上内容可直接应用于 **例 2.2.7** 的求解。
 
+A cylindrical surface can be viewed as a limiting case of a conical surface whose apex is moved off to infinity in a particular direction. Indeed, in projective geometry a cylindrical surface is just a special case of a conical surface. [[1]](https://en.wikipedia.org/wiki/Conical_surface)
+
+In projective geometry, a cylinder is simply a cone whose apex (vertex) lies on the plane at infinity. If the cone is a quadratic cone, the plane at infinity (which passes through the vertex) can intersect the cone at two real lines, a single real line (actually a coincident pair of lines), or only at the vertex. These cases give rise to the hyperbolic, parabolic or elliptic cylinders respectively.
+
+This concept is useful when considering degenerate conics, which may include the cylindrical conics. [[2]](https://en.wikipedia.org/wiki/Cylinder#Projective_geometry)
+
 ## English-Chinese Technical Terms Table
 
 读者可按 `Ctrl + F` 检索。
@@ -368,7 +374,7 @@ $$
 | English | 简体中文 |
 | :---: | :---: |
 | Quadric surface | 二次曲面 |
-| Degenerate quadric | 柱面 |
+| Cylindrical surface (or degenerate quadric surface) | 柱面 |
 | Apex | （锥面的）顶点 |
 | Generatrix/generator/ruling | 母线 |
 | Directrix | 准线 |
@@ -378,12 +384,13 @@ $$
 | Hyperbolic cylinder | 双曲柱面 |
 | Parabolic cylinder | 抛物柱面 |
 | Ellipsoid | 椭球面 |
-| Hyperboloid of one sheet | 单叶双曲面 |
-| Hyperboloid of two sheets | 双叶双曲面 |
-| Elliptic cone (or conical quadric) | 二次锥面 |
-| Hyperbolic cylinder | 椭圆抛物面 |
+| One-sheet hyperboloid (or hyperbolic hyperboloid) | 单叶双曲面 |
+| Two-sheet hyperboloid (or elliptic hyperboloid) | 双叶双曲面 |
+| Conical quadric surface (or elliptic cone) | 二次锥面 |
+| Hyperbolic paraboloid | 椭圆抛物面 |
 | Hyperbolic paraboloid | 双曲抛物面（马鞍面） |
 | Surface of revolution | 旋转曲面 |
+| Diagonal | 对角线，对角线的 |
 
 ---
 
