@@ -367,27 +367,27 @@ In projective geometry, a cylinder is simply a cone whose apex (vertex) lies on 
 
 This concept is useful when considering degenerate conics, which may include the cylindrical conics. [[2]](https://en.wikipedia.org/wiki/Cylinder#Projective_geometry)
 
-## English-Chinese Technical Terms Table
+## English-Chinese Terms Table
 
 读者可按 `Ctrl + F` 检索。
 
 | English | 简体中文 |
 | :---: | :---: |
 | Quadric surface | 二次曲面 |
-| Cylindrical surface (or degenerate quadric surface) | 柱面 |
+| Cylindrical surface (or degenerate quadric, or simply "cylinder") | 柱面 |
 | Apex | （锥面的）顶点 |
 | Generatrix/generator/ruling | 母线 |
 | Directrix | 准线 |
 | Ruled surface | 直纹面 |
-| Right circular cylinder | 圆柱面 |
+| Right circular cylinder | 圆柱（面） |
 | Elliptic cylinder | 椭圆柱面 |
 | Hyperbolic cylinder | 双曲柱面 |
 | Parabolic cylinder | 抛物柱面 |
 | Ellipsoid | 椭球面 |
-| One-sheet hyperboloid (or hyperbolic hyperboloid) | 单叶双曲面 |
-| Two-sheet hyperboloid (or elliptic hyperboloid) | 双叶双曲面 |
-| Conical quadric surface (or elliptic cone) | 二次锥面 |
-| Hyperbolic paraboloid | 椭圆抛物面 |
+| One-sheet(ed) hyperboloid (or hyperbolic hyperboloid) | 单叶双曲面 |
+| Two-sheet(ed) hyperboloid (or elliptic hyperboloid) | 双叶双曲面 |
+| Conical quadric (or elliptic cone) | 二次锥面 |
+| Elliptic paraboloid | 椭圆抛物面 |
 | Hyperbolic paraboloid | 双曲抛物面（马鞍面） |
 | Surface of revolution | 旋转曲面 |
 | Diagonal | 对角线，对角线的 |
@@ -399,5 +399,5 @@ Febuary, 2022; Suzhou&Hefei, China;
 Dedicated to her with love.
 
 Please feel free to add a comment if you witness ANY error.
-Last modified on 2/28/2022, UPDATING...
+Last modified on 3/1/2022, UPDATING...
 ```
