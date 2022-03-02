@@ -340,7 +340,7 @@ $$
 
 顶点 \\(A\left(a_1,a_2,a_3\right)\\)
 
-设 \\(P\left(x,y,z\right)\\) 曲面上任意一点，\\(Q\left(x_0,y_0,z_0\right)\\) 是其对应的准线上的点，故母线方向 \\(\bm{u}=\left(u_1,u_2,u_3\right)=\left(x_0-a_1,y_2-a_2,z_0-a_3\right)\\)
+设 \\(P\left(x,y,z\right)\\) 曲面上任意一点，\\(Q\left(x_0,y_0,z_0\right)\\) 是其对应的准线上的点，故母线方向 \\(\bm{u}=\left(u_1,u_2,u_3\right)=\left(x_0-a_1,y_0-a_2,z_0-a_3\right)\\)
 
 $$
 \left\{\begin{matrix}
@@ -367,13 +367,31 @@ In projective geometry, a cylinder is simply a cone whose apex (vertex) lies on 
 
 This concept is useful when considering degenerate conics, which may include the cylindrical conics. [[2]](https://en.wikipedia.org/wiki/Cylinder#Projective_geometry)
 
+#### 2.2.4&emsp;旋转面
+
+**例 2.2.9** 中运用到的方法是求旋转面的通法，但图 2.14 貌似有些问题，下面展示了正确的图像。
+
+<p style="text-align:center;"><img src="/assets/linear-algebra-and-analytic-geometry-graph-2.14.png" alt="Graph 2.14" style="width:300px;"/></p>
+
+用此通法再解两题：
+
+<p style="text-align:center;"><img src="/assets/linear-algebra-and-analytic-geometry-graph-2.14-2.png" alt="Graph 2.14" style="width:600px;"/></p>
+
+<p style="text-align:center;"><img src="/assets/linear-algebra-and-analytic-geometry-graph-2.14-3.png" alt="Graph 2.14" style="width:600px;"/></p>
+
+异面直线形成的旋转面是单叶双曲面。单叶双曲面属于直纹面。
+
+#### 2.2.5&emsp;二次曲面简介
+
+[单（双）叶双曲面与平面的交线也可以是抛物线。](https://math.stackexchange.com/questions/1253857)
+
 ## English-Chinese Terms Table
 
 读者可按 `Ctrl + F` 检索。
 
 | English | 简体中文 |
 | :---: | :---: |
-| Quadric surface | 二次曲面 |
+| Quadrics | 二次曲面 |
 | Cylindrical surface (or degenerate quadric, or simply "cylinder") | 柱面 |
 | Apex | （锥面的）顶点 |
 | Generatrix/generator/ruling | 母线 |
@@ -389,15 +407,15 @@ This concept is useful when considering degenerate conics, which may include the
 | Conical quadric (or elliptic cone) | 二次锥面 |
 | Elliptic paraboloid | 椭圆抛物面 |
 | Hyperbolic paraboloid | 双曲抛物面（马鞍面） |
-| Surface of revolution | 旋转曲面 |
+| Surface of revolution | 旋转面 |
 | Diagonal | 对角线，对角线的 |
 
 ---
 
 ```text
-Febuary, 2022; Suzhou&Hefei, China;
+Febuary&March, 2022; Suzhou&Hefei, China;
 Dedicated to her with love.
 
 Please feel free to add a comment if you witness ANY error.
-Last modified on 3/1/2022, UPDATING...
+Last modified on 3/2/2022, UPDATING...
 ```
