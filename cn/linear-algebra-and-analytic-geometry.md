@@ -296,15 +296,13 @@ $$
 #### 2.2.2&emsp;柱面
 
 准线方程
-
 $$
 \left\{\begin{matrix}
 f\left(x,y,z\right)=0\\
 g\left(x,y,z\right)=0
 \end{matrix}\right.
 $$
-
-母线方向 \\(\bm{u}=\left(u_1,u_2,u_3\right)\\)
+，母线方向 \\(\bm{u}=\left(u_1,u_2,u_3\right)\\)
 
 设 \\(P\left(x,y,z\right)\\) 曲面上任意一点，\\(Q\left(x_0,y_0,z_0\right)\\) 是其对应的准线上的点，则
 
@@ -330,15 +328,13 @@ $$
 #### 2.2.3&emsp;锥面
 
 准线方程
-
 $$
 \left\{\begin{matrix}
 f\left(x,y,z\right)=0\\
 g\left(x,y,z\right)=0
 \end{matrix}\right.
 $$
-
-顶点 \\(A\left(a_1,a_2,a_3\right)\\)
+，顶点 \\(A\left(a_1,a_2,a_3\right)\\)
 
 设 \\(P\left(x,y,z\right)\\) 曲面上任意一点，\\(Q\left(x_0,y_0,z_0\right)\\) 是其对应的准线上的点，故母线方向 \\(\bm{u}=\left(u_1,u_2,u_3\right)=\left(x_0-a_1,y_0-a_2,z_0-a_3\right)\\)
 
@@ -379,6 +375,12 @@ This concept is useful when considering degenerate conics, which may include the
 
 <p style="text-align:center;"><img src="/assets/linear-algebra-and-analytic-geometry-graph-2.14-3.png" alt="Graph 2.14" style="width:600px;"/></p>
 
+[直线在平面上的摄影直线的求法（结果为点法式；注意计算时不要算叉乘，而是转化成点乘计算）](https://www.zhihu.com/question/54139298/answer/2372811421)
+
+[直线在平面上的摄影直线的求法（结果为隐式）](https://www.zhihu.com/question/54139298/answer/1141428282)
+
+[点到平面的摄影与到直线的摄影](https://www.zhihu.com/question/301830492/answer/2122446563)
+
 异面直线形成的旋转面是单叶双曲面。单叶双曲面属于直纹面。
 
 #### 2.2.5&emsp;二次曲面简介
@@ -408,7 +410,17 @@ This concept is useful when considering degenerate conics, which may include the
 | Elliptic paraboloid | 椭圆抛物面 |
 | Hyperbolic paraboloid | 双曲抛物面（马鞍面） |
 | Surface of revolution | 旋转面 |
-| Diagonal | 对角线，对角线的 |
+| System of linear equations | 线性方程组 |
+| Matrix | 矩阵 |
+| Square matrix | 方阵 |
+| Determinant | 行列式 |
+| Identity matrix | 单位矩阵 |
+| Diagonal matrix | 对角矩阵 |
+| Upper (lower) triangular matrix | 上（下）三角形矩阵 |
+| Symmetric matrix | 对称矩阵 |
+| Asymmetric Matrix | 不对称矩阵 |
+| Antisymmetric matrix (aka skew-symmetric or antimetric matrix, a special class of asymmetric matrices) | 反对称矩阵（不对称矩阵的特例） |
+| Basis matrix | 基本矩阵 |
 
 ---
 
@@ -417,5 +429,5 @@ Febuary&March, 2022; Suzhou&Hefei, China;
 Dedicated to her with love.
 
 Please feel free to add a comment if you witness ANY error.
-Last modified on 3/2/2022, UPDATING...
+Last modified on 3/4/2022, UPDATING...
 ```
