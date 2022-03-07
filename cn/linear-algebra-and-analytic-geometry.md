@@ -11,7 +11,9 @@ title: 陈发来线代听课笔记
  I  S  B  N： 978-7-04-043312-8  定价：29.80
 
 视频中的错误：
-第二章-第1课 —— 直线与平面方程 —— 22:22：implicit 拼错。
+第二章-第1课 —— 直线与平面方程 | 22:22：implicit 拼错。
+第三章第 2 课——Gauss消元法 | 0:35 线性方程组英文不是 linear system of equations
+第四章 第 4 课——矩阵的运算③ | 0:40 逆矩阵英文不说成 inverse matrix
 ```
 
 各个教师在授课时都会讲些教材上没有的内容，即所谓的“拓展内容”。本文提取了陈发来教授的所有拓展内容，读者应结合书本阅读。[陈发来教授](http://staff.ustc.edu.cn/~chenfl/)是[中国科学技术大学](https://ustc.edu.cn/)的名教师，在[评课社区](https://icourse.club/course/5479/)好评如潮。读者在读完教材和本文后就完全掌握了课堂的所有知识，无需再看视频，节约了时间。
@@ -413,11 +415,13 @@ $$
 显然，\\(\mathbf{N}^2=\mathbf{0}\\)，故 \\(\mathbf{N}^i=\mathbf{0}, i=2,3,4,\dots\\)
 
 $$
-\mathbf{A}^n=\left(\mathbf{I}+\mathbf{N}\right)^n=\binom{n}{0}\mathbf{I}^n+\binom{n}{1}\mathbf{I}^{n-1}\mathbf{N}=\begin{bmatrix}
+\mathbf{A}^n=\left(\mathbf{I}+\mathbf{N}\right)^n=\binom{n}{0}\mathbf{I}+\binom{n}{1}\mathbf{I}\mathbf{N}=\begin{bmatrix}
 1 & n\\
 0 & 1
 \end{bmatrix}
 $$
+
+注意，只有满足乘法交换律的矩阵相加才能二项式展开（这里是与单位向量相加的情况）。
 
 ## English-Chinese Terms Table
 
@@ -436,12 +440,13 @@ $$
 | Hyperbolic cylinder | 双曲柱面 |
 | Parabolic cylinder | 抛物柱面 |
 | Ellipsoid | 椭球面 |
-| One-sheet(ed) hyperboloid (or hyperbolic hyperboloid) | 单叶双曲面 |
-| Two-sheet(ed) hyperboloid (or elliptic hyperboloid) | 双叶双曲面 |
+| One-sheeted hyperboloid | 单叶双曲面 |
+| Two-sheeted hyperboloid | 双叶双曲面 |
 | Conical quadric (or elliptic cone) | 二次锥面 |
 | Elliptic paraboloid | 椭圆抛物面 |
 | Hyperbolic paraboloid | 双曲抛物面（马鞍面） |
 | Surface of revolution | 旋转面 |
+| Affine transformation | 仿射变换 |
 | System of linear equations | 线性方程组 |
 | Matrix | 矩阵 |
 | Square matrix | 方阵 |
@@ -453,6 +458,13 @@ $$
 | Asymmetric Matrix | 不对称矩阵 |
 | Antisymmetric matrix (aka skew-symmetric or antimetric matrix, a special class of asymmetric matrices) | 反对称矩阵（不对称矩阵的特例） |
 | Basis matrix | 基本矩阵 |
+| Reciprocal matrix (the inverse of a square matrix) | 逆矩阵 |
+| Inverse | 逆 |
+| Invertible matrix (nonsigular matrix, nondegenerate matrix) | 可逆方阵（非奇异方阵） |
+| Non-invertible matrix (singular matrix, degenerate matrix) | 不可逆方阵（奇异方阵） |
+| Transpose | 转置 |
+| Conjugate matrix | 共轭矩阵 |
+| Trace | 迹 |
 
 ---
 
@@ -461,5 +473,5 @@ Febuary&March, 2022; Suzhou&Hefei, China;
 Dedicated to her with love.
 
 Please feel free to add a comment if you witness ANY error.
-Last modified on 3/4/2022, UPDATING...
+Last modified on 3/7/2022, UPDATING...
 ```
