@@ -387,6 +387,38 @@ This concept is useful when considering degenerate conics, which may include the
 
 [单（双）叶双曲面与平面的交线也可以是抛物线。](https://math.stackexchange.com/questions/1253857)
 
+## 4&emsp;矩阵与行列式
+
+### 4.2&emsp;矩阵的运算
+
+#### 4.2.2&emsp;矩阵的乘法
+
+设
+$$
+\mathbf{A}=\begin{bmatrix}
+1 & 1\\
+0 & 1
+\end{bmatrix}
+$$
+，求 \\(\mathbf{A}^n\\)
+
+解：\\(\mathbf{A}=\mathbf{I}+\mathbf{N},\\)
+$$
+\mathbf{N}=\begin{bmatrix}
+0 & 1\\
+0 & 0
+\end{bmatrix}
+$$
+
+显然，\\(\mathbf{N}^2=\mathbf{0}\\)，故 \\(\mathbf{N}^i=\mathbf{0}, i=2,3,4,\dots\\)
+
+$$
+\mathbf{A}^n=\left(\mathbf{I}+\mathbf{N}\right)^n=\binom{n}{0}\mathbf{I}^n+\binom{n}{1}\mathbf{I}^{n-1}\mathbf{N}=\begin{bmatrix}
+1 & n\\
+0 & 1
+\end{bmatrix}
+$$
+
 ## English-Chinese Terms Table
 
 读者可按 `Ctrl + F` 检索。
