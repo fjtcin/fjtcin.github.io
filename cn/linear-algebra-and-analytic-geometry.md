@@ -11,9 +11,9 @@ title: 陈发来线代听课笔记
  I  S  B  N： 978-7-04-043312-8  定价：29.80
 
 视频中的错误：
-第二章-第1课 —— 直线与平面方程 | 22:22：implicit 拼错。
+第二章-第1课 —— 直线与平面方程 | 22:22 implicit 拼错。
 第三章第 2 课——Gauss消元法 | 0:35 线性方程组英文不是 linear system of equations
-第四章 第 4 课——矩阵的运算③ | 0:40 逆矩阵英文不说成 inverse matrix
+第四章 第 4 课——矩阵的运算③ | 0:40 逆矩阵英文不说成 inverse matrix，而应为 matrix inverse
 ```
 
 各个教师在授课时都会讲些教材上没有的内容，即所谓的“拓展内容”。本文提取了陈发来教授的所有拓展内容，读者应结合书本阅读。[陈发来教授](http://staff.ustc.edu.cn/~chenfl/)是[中国科学技术大学](https://ustc.edu.cn/)的名教师，在[评课社区](https://icourse.club/course/5479/)好评如潮。读者在读完教材和本文后就完全掌握了课堂的所有知识，无需再看视频，节约了时间。
@@ -369,13 +369,13 @@ This concept is useful when considering degenerate conics, which may include the
 
 **例 2.2.9** 中运用到的方法是求旋转面的通法，但图 2.14 貌似有些问题，下面展示了正确的图像。
 
-<p style="text-align:center;"><img src="/assets/linear-algebra-and-analytic-geometry-graph-2.14.png" alt="Graph 2.14" style="width:300px;"/></p>
+<p style="text-align:center;"><img src="/assets/linear-algebra-and-analytic-geometry-graph-2.14.png" alt="Graph 2.14" style="width:300px;"></p>
 
 用此通法再解两题：
 
-<p style="text-align:center;"><img src="/assets/linear-algebra-and-analytic-geometry-graph-2.14-2.png" alt="Graph 2.14" style="width:600px;"/></p>
+<p style="text-align:center;"><img src="/assets/linear-algebra-and-analytic-geometry-graph-2.14-2.png" alt="Graph 2.14" style="width:600px;"></p>
 
-<p style="text-align:center;"><img src="/assets/linear-algebra-and-analytic-geometry-graph-2.14-3.png" alt="Graph 2.14" style="width:600px;"/></p>
+<p style="text-align:center;"><img src="/assets/linear-algebra-and-analytic-geometry-graph-2.14-3.png" alt="Graph 2.14" style="width:600px;"></p>
 
 [直线在平面上的摄影直线的求法（结果为点法式；注意计算时不要算叉乘，而是转化成点乘计算）](https://www.zhihu.com/question/54139298/answer/2372811421)
 
@@ -404,7 +404,7 @@ $$
 $$
 ，求 \\(\mathbf{A}^n\\)
 
-解：\\(\mathbf{A}=\mathbf{I}+\mathbf{N},\\)
+解：当然可以用**数学归纳法**。这里提供一种巧法，设 \\(\mathbf{A}=\mathbf{I}+\mathbf{N},\\)
 $$
 \mathbf{N}=\begin{bmatrix}
 0 & 1\\
