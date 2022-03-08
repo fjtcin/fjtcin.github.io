@@ -34,7 +34,7 @@ WARNING: 安装时间较长，所需流量较多，请合理选择一段时间�
 
     <p style="text-align:center;"><img src="/assets/collaborate-with-me-latex-4.png" alt="Modify Advanced Settings" width="600"></p>
 
-1. Uncheck All languages EXCEPT `Chinese`, `Chinese/Japanese/Korean (base)` and `US&UK English`. This can save you almost 1GB.
+1. Uncheck All languages EXCEPT `Chinese`, `Chinese/Japanese/Korean (base)` and `US and UK English`. This can save you almost 1GB.
 
     <p style="text-align:center;"><img src="/assets/collaborate-with-me-latex-5.png" alt="Uncheck Unnecessary Languages" width="500"></p>
 
@@ -48,9 +48,13 @@ WARNING: 安装时间较长，所需流量较多，请合理选择一段时间�
 
 <p style="text-align:center;"><img src="/assets/collaborate-with-me-latex-7.png" alt="Add PATH" width="500"></p>
 
-## Install Git Bash
+## Set Git
 
-UPDATING...
+根据[知乎上的教程](https://zhuanlan.zhihu.com/p/31417255)一直做到 `3、克隆仓库` 的内容。
+
+注意：在克隆仓库时，应当克隆我们协作用的仓库。
+
+完成后，你就能在本地看到项目的一切文件了。
 
 ## Add Extensions in VS Code
 
@@ -58,7 +62,16 @@ UPDATING...
 
 ## Use Github to Collaborate
 
-UPDATING...
+当你在本地完成某个模块的更新后，输入以下命令，即可完成提交。
+
+```git
+git pull
+git add .
+git commit -m SAY SOMETHING ABOUT WHAT YOU HAVE CHANGED
+git push
+```
+
+注意，`git add` 后有一个点，不要漏了它。
 
 ---
 
