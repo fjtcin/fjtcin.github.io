@@ -56,22 +56,20 @@ WARNING: 安装时间较长，所需流量较多，请合理选择一段时间�
 
 完成后，你就能在本地看到项目的一切文件了。
 
-## Add Extensions in VS Code
-
-UPDATING...
-
-## Use Github to Collaborate
+## Use Git to Collaborate
 
 当你在本地完成某个模块的更新后，输入以下命令，即可完成提交。
 
-```git
+```bash
 git pull
 git add .
-git commit -m SAY SOMETHING ABOUT WHAT YOU HAVE CHANGED
+git commit -m "SAY SOMETHING ABOUT WHAT YOU HAVE CHANGED"
 git push
 ```
 
 注意，`git add` 后有一个点，不要漏了它。
+
+<p style="text-align:center;"><img src="/assets/collaborate-with-me-git.png" alt="Git CLI"></p>
 
 ---
 

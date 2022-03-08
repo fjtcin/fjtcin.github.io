@@ -6,7 +6,11 @@ categories: zhihu
 
 # In Reply To A Projection Problem
 
-[一条直线在一个平面上投影的直线方程如何求？](https://www.zhihu.com/question/54139298/answer/2372811421)
+[直线在平面上的摄影直线的求法（点法式）](https://www.zhihu.com/question/54139298/answer/2372811421)
+
+[直线在平面上的摄影直线的求法（隐式）](https://www.zhihu.com/question/54139298/answer/1141428282)
+
+[点到平面的摄影与到直线的摄影](https://www.zhihu.com/question/301830492/answer/2122446563)
 
 求直线
 $$
@@ -40,5 +44,5 @@ $$
 March, 2022; Hefei, China;
 
 Please feel free to add a comment if you witness ANY error.
-Last modified on 3/4/2022
+Last modified on 3/8/2022
 ```

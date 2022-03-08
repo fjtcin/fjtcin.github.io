@@ -377,11 +377,7 @@ This concept is useful when considering degenerate conics, which may include the
 
 <p style="text-align:center;"><img src="/assets/linear-algebra-and-analytic-geometry-graph-2.14-3.png" alt="Graph 2.14" style="width:600px;"></p>
 
-[直线在平面上的摄影直线的求法（结果为点法式；注意计算时不要算叉乘，而是转化成点乘计算）](https://www.zhihu.com/question/54139298/answer/2372811421)
-
-[直线在平面上的摄影直线的求法（结果为隐式）](https://www.zhihu.com/question/54139298/answer/1141428282)
-
-[点到平面的摄影与到直线的摄影](https://www.zhihu.com/question/301830492/answer/2122446563)
+> See also: [Projection Problem]({% link cn/_posts/2022-03-04-in-reply-to-a-projection-problem.md %})
 
 异面直线形成的旋转面是单叶双曲面。单叶双曲面属于直纹面。
 
