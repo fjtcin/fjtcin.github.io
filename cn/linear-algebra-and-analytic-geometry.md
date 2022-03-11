@@ -419,6 +419,115 @@ $$
 
 注意，只有满足乘法交换律的矩阵相加才能二项式展开（这里是与单位向量相加的情况）。
 
+#### 4.2.5&emsp;分块运算
+
+（**例 4.2.11**）设
+$$
+\mathbf{A}=\begin{bmatrix}
+1 & 1 & 1 & 0\\
+0 & 1 & 0 & 1\\
+0 & 0 & 1 & 1\\
+0 & 0 & 0 & 1
+\end{bmatrix}
+$$
+，求 \\(\mathbf{A}^n, \mathbf{A}^{-1}\\)
+
+解：将 \\(\mathbf{A}\\) 分块成
+
+$$
+\mathbf{A}=\begin{bmatrix}
+\mathbf{B} & \mathbf{I}\\
+\mathbf{0} & \mathbf{B}
+\end{bmatrix},
+\mathbf{B}=\begin{bmatrix}
+1 & 1\\
+0 & 1
+\end{bmatrix}
+$$
+
+类似于 [4.2.2](#422矩阵的乘法) 中的解法，
+
+$$
+\mathbf{A}^n
+=\left(\begin{bmatrix}
+\mathbf{B} & \mathbf{0}\\
+\mathbf{0} & \mathbf{B}
+\end{bmatrix}+\begin{bmatrix}
+\mathbf{0} & \mathbf{I}\\
+\mathbf{0} & \mathbf{0}
+\end{bmatrix}
+\right)^n
+=\binom{n}{0}\begin{bmatrix}
+\mathbf{B} & \mathbf{0}\\
+\mathbf{0} & \mathbf{B}
+\end{bmatrix}^n+\binom{n}{1}\begin{bmatrix}
+\mathbf{B} & \mathbf{0}\\
+\mathbf{0} & \mathbf{B}
+\end{bmatrix}^{n-1}
+\begin{bmatrix}
+\mathbf{0} & \mathbf{I}\\
+\mathbf{0} & \mathbf{0}
+\end{bmatrix}
+=\begin{bmatrix}
+\mathbf{B}^n & \mathbf{0}\\
+\mathbf{0} & \mathbf{B}^n
+\end{bmatrix}+
+\begin{bmatrix}
+\mathbf{0} & n\mathbf{B}^{n-1}\\
+\mathbf{0} & \mathbf{0}
+\end{bmatrix}
+=\begin{bmatrix}
+\mathbf{B}^n & n\mathbf{B}^{n-1}\\
+\mathbf{0} & \mathbf{B}^n
+\end{bmatrix}
+$$
+
+设
+$$
+\mathbf{A}^{-1}=\begin{bmatrix}
+\mathbf{X_{11}} & \mathbf{X_{12}}\\
+\mathbf{X_{21}} & \mathbf{X_{22}}
+\end{bmatrix}
+$$
+，则
+$$
+\begin{bmatrix}
+\mathbf{X_{11}} & \mathbf{X_{12}}\\
+\mathbf{X_{21}} & \mathbf{X_{22}}
+\end{bmatrix}
+\begin{bmatrix}
+\mathbf{B} & \mathbf{I}\\
+\mathbf{0} & \mathbf{B}
+\end{bmatrix}
+=\begin{bmatrix}
+\mathbf{X_{11}B} & \mathbf{X_{11}}+\mathbf{X_{12}}\mathbf{B}\\
+\mathbf{X_{21}B} & \mathbf{X_{21}}+\mathbf{X_{22}}\mathbf{B}
+\end{bmatrix}
+=\begin{bmatrix}
+\mathbf{I} & \mathbf{0}\\
+\mathbf{0} & \mathbf{I}
+\end{bmatrix}
+$$
+，故
+$$
+\left\{\begin{matrix}
+\mathbf{X_{11}}=\mathbf{B}^{-1}\\
+\mathbf{X_{12}}=-\mathbf{B}^{-2}\\
+\mathbf{X_{21}}=\mathbf{0}\\
+\mathbf{X_{22}}=\mathbf{B}^{-1}
+\end{matrix}\right.
+$$
+，即
+
+$$
+\mathbf{A}^{-1}=\begin{bmatrix}
+1 & -1 & -1 & 2\\
+0 & 1 & 0 & -1\\
+0 & 0 & 1 & -1\\
+0 & 0 & 0 & 1
+\end{bmatrix}
+$$
+
 ## English-Chinese Terms Table
 
 读者可按 `Ctrl + F` 检索。
@@ -469,5 +578,5 @@ Febuary&March, 2022; Suzhou&Hefei, China;
 Dedicated to her with love.
 
 Please feel free to add a comment if you witness ANY error.
-Last modified on 3/8/2022, UPDATING...
+Last modified on 3/12/2022, UPDATING...
 ```
