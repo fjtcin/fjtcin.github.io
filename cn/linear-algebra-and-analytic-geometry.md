@@ -14,6 +14,10 @@ title: 陈发来线代听课笔记
 第二章-第1课 —— 直线与平面方程 | 22:22 implicit 拼错。
 第三章第 2 课——Gauss消元法 | 0:35 线性方程组英文不是 linear system of equations
 第四章 第 4 课——矩阵的运算③ | 0:40 逆矩阵英文不说成 inverse matrix，而应为 matrix inverse
+第四章 第 7 课——行列式的定义② | 31:15 “互反性”就是书上的“反对称性”，但我认为更合理地说法应当为“反交换性”
+第四章 第 9 课——行列式的定义④ | 39:55 a_11 a_12 应为 a_11 a_21
+第四章 第 9 课——行列式的定义④ | 40:02 a_21 a_22 应为 a_12 a_22
+第四章 第 10 课——行列式的计算① | 39:50 行列式计算严重错误
 ```
 
 各个教师在授课时都会讲些教材上没有的内容，即所谓的“拓展内容”。本文提取了陈发来教授的所有拓展内容，读者应结合书本阅读。[陈发来教授](http://staff.ustc.edu.cn/~chenfl/)是[中国科学技术大学](https://ustc.edu.cn/)的名教师，在[评课社区](https://icourse.club/course/5479/)好评如潮。读者在读完教材和本文后就完全掌握了课堂的所有知识，无需再看视频，节约了时间。
@@ -528,12 +532,35 @@ $$
 \end{bmatrix}
 $$
 
+### 4.3&emsp;行列式
+
+#### 4.3.2&emsp;行列式的展开式
+
+（**定理 4.3.4**）设 \\(\mathbf{A}=\left(a_{ij}\right)_{n\times n}\\)，利用行列式的完全展开式有
+
+$$
+\det\left(\mathbf{A}^\mathrm{T}\right)=\sum_{\left(i_1,i_2,\dots,i_n\right)\in S_n}\left(-1\right)^{\tau\left(i_1,i_2,\dots,i_n\right)}a_{i_11}a_{i_22}\dots a_{i_nn}
+$$
+
+考虑上述展开式中的每一项，可以经过 \\(\tau\left(i_1,i_2,\dots,i_n\right)\\) 次对换把排列 \\(\left(i_1,i_2,\dots,i_n\right)\\) 变成 \\(\left(1,2,\dots,n\right)\\)。设这些对换把 \\(\left(1,2,\dots,n\right)\\) 变成 \\(\left(j_1,j_2,\dots,j_n\right)\\)，则
+
+$$
+\tau\left(i_1,i_2,\dots,i_n\right)=\tau\left(j_1,j_2,\dots,j_n\right)
+$$
+
+> 证明：不妨使所有对换都发生在相邻元素间。
+>
+> 考虑 \\(a_{i_pp}\\) 与 \\(a_{i_qq}\\)（\\(p=q-1\\)），它们需要对换当且仅当 \\(i_p>i_q\\)
+>
+> 经过这次对换，新序列的 \\(\tau\left(i_1,i_2,\dots,i_n\right)\\) 减少了 1，\\(\tau\left(j_1,j_2,\dots,j_n\right)\\) 增大了 1。
+
 ## English-Chinese Terms Table
 
 读者可按 `Ctrl + F` 检索。
 
 | English | 简体中文 |
 | :---: | :---: |
+| Anticommutative property | 反交换律 |
 | Quadrics | 二次曲面 |
 | Cylindrical surface (or degenerate quadric, or simply "cylinder") | 柱面 |
 | Apex | （锥面的）顶点 |
@@ -557,6 +584,7 @@ $$
 | Square matrix | 方阵 |
 | Determinant | 行列式 |
 | Identity matrix | 单位矩阵 |
+| Scalar matrix | 数量矩阵 |
 | Diagonal matrix | 对角矩阵 |
 | Upper (lower) triangular matrix | 上（下）三角形矩阵 |
 | Symmetric matrix | 对称矩阵 |
