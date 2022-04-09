@@ -37,8 +37,7 @@ plugins:
   - jemoji
 markdown: kramdown
 kramdown:
-    math_engine: katex
-    parse_block_html: true
+  parse_block_html: true
 permalink: pretty
 
 # Exclude from processing.

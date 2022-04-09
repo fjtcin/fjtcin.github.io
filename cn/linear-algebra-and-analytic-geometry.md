@@ -36,25 +36,25 @@ title: 陈发来线代听课笔记
 
 知道向量的共线、共面关系的表示后，点的共线、共面关系也可以表示出来。**（不要搞混了。）**
 
-三点 \\(A,B,C\\) 共线 \\(\iff \overrightarrow{OA}=\lambda'\overrightarrow{OB}+\mu'\overrightarrow{OC}, \lambda'+\mu'=1, O\\) 是平面中任意一点。
+三点 $$A,B,C$$ 共线 $$\iff \overrightarrow{OA}=\lambda'\overrightarrow{OB}+\mu'\overrightarrow{OC}, \lambda'+\mu'=1, O$$ 是平面中任意一点。
 
-> Proof: \\(\overrightarrow{AB}\\) are parallel to \\(\overrightarrow{AC}\\)
+> Proof: $$\overrightarrow{AB}$$ are parallel to $$\overrightarrow{AC}$$
 >
-> \\(\iff\\) there exists \\(\lambda, \mu\\) (not all 0) such that \\(\lambda\overrightarrow{AB}+\mu\overrightarrow{AC}=0\\)
+> $$\iff$$ there exists $$\lambda, \mu$$ (not all 0) such that $$\lambda\overrightarrow{AB}+\mu\overrightarrow{AC}=0$$
 >
-> \\(\iff \lambda\left(\overrightarrow{OB}-\overrightarrow{OA}\right)+\mu\\left(\overrightarrow{OC}-\overrightarrow{OA}\right)=0\\)
+> \$$\iff \lambda\left(\overrightarrow{OB}-\overrightarrow{OA}\right)+\mu\left(\overrightarrow{OC}-\overrightarrow{OA}\right)=0$$
 >
-> \\(\iff \left(\lambda+\mu\right)\overrightarrow{OA}=\lambda\overrightarrow{OB}+\mu\overrightarrow{OC}\\)
+> \$$\iff \left(\lambda+\mu\right)\overrightarrow{OA}=\lambda\overrightarrow{OB}+\mu\overrightarrow{OC}$$
 >
-> If \\(\lambda+\mu=0\\), then \\(\overrightarrow{OB}=\overrightarrow{OC}\\) for arbitrary point \\(O\\), which means \\(B\\) and \\(C\\) are the same points. That is not true, so \\(\lambda+\mu\neq 0\\) and we divide it from both sides.
+> If $$\lambda+\mu=0$$, then $$\overrightarrow{OB}=\overrightarrow{OC}$$ for arbitrary point $$O$$, which means $$B$$ and $$C$$ are the same points. That is not true, so $$\lambda+\mu\neq 0$$ and we divide it from both sides.
 >
-> \\(\iff \overrightarrow{OA}=\frac{\lambda}{\lambda+\mu}\overrightarrow{OB}+\frac{\mu}{\lambda+\mu}\overrightarrow{OC}\\)
+> \$$\iff \overrightarrow{OA}=\frac{\lambda}{\lambda+\mu}\overrightarrow{OB}+\frac{\mu}{\lambda+\mu}\overrightarrow{OC}$$
 >
-> Denote \\(\lambda'=\frac{\lambda}{\lambda+\mu}\\) and \\(\mu'=\frac{\mu}{\lambda+\mu}\\), and we get
+> Denote $$\lambda'=\frac{\lambda}{\lambda+\mu}$$ and $$\mu'=\frac{\mu}{\lambda+\mu}$$, and we get
 >
-> \\(\iff \overrightarrow{OA}=\lambda'\overrightarrow{OB}+\mu'\overrightarrow{OC}, \lambda'+\mu'=1\\)
+> \$$\iff \overrightarrow{OA}=\lambda'\overrightarrow{OB}+\mu'\overrightarrow{OC}, \lambda'+\mu'=1$$
 
-四点 \\(A,B,C,D\\) 共面 \\(\iff \overrightarrow{OA}=\lambda'\overrightarrow{OB}+\mu'\overrightarrow{OC}+\nu'\overrightarrow{OD}, \lambda'+\mu'+\nu'=1, O\\) 是空间中任意一点。
+四点 $$A,B,C,D$$ 共面 $$\iff \overrightarrow{OA}=\lambda'\overrightarrow{OB}+\mu'\overrightarrow{OC}+\nu'\overrightarrow{OD}, \lambda'+\mu'+\nu'=1, O$$ 是空间中任意一点。
 
 以上内容实际上是**例 1.1.2** 的直接推论。同时，它们也有深刻的几何意义：
 
@@ -80,7 +80,7 @@ title: 陈发来线代听课笔记
 \end{scriptsize}
 \end{tikzpicture}
 </script>
-\\(A\\) 是直线 \\(BC\\) 上一点（称作定比分点）。\\(O\\) 是平面上任意一点。
+$$A$$ 是直线 $$BC$$ 上一点（称作定比分点）。$$O$$ 是平面上任意一点。
 </div>
 
 $$
@@ -157,7 +157,7 @@ $$
 \end{tikzpicture}
 </script>
 </div>
-\\(A\\) 是平面 \\(BCD\\) 上一点。\\(O\\) 是空间中任意一点。
+$$A$$ 是平面 $$BCD$$ 上一点。$$O$$ 是空间中任意一点。
 </div>
 
 $$
@@ -169,51 +169,51 @@ $$
 
 > 证明：留做习题。
 
-我们将 \\(\lambda', \mu', \nu'\\) 称为 \\(A\\) 关于 \\(\triangle BCD\\) 的面积坐标。看上去这个坐标有3个分量，实际上独立的只有2个，因为 \\(\lambda'+\mu'+\nu'=1\\)
+我们将 $$\lambda', \mu', \nu'$$ 称为 $$A$$ 关于 $$\triangle BCD$$ 的面积坐标。看上去这个坐标有3个分量，实际上独立的只有2个，因为 $$\lambda'+\mu'+\nu'=1$$
 
-特别地，当 \\(A\\) 是三角形重心时，\\(\overrightarrow{OA}=\frac{1}{3}\overrightarrow{OB}+\frac{1}{3}\overrightarrow{OC}+\frac{1}{3}\overrightarrow{OD}\\)
+特别地，当 $$A$$ 是三角形重心时，$$\overrightarrow{OA}=\frac{1}{3}\overrightarrow{OB}+\frac{1}{3}\overrightarrow{OC}+\frac{1}{3}\overrightarrow{OD}$$
 
-当 \\(A\\) 是三角形内心时，\\(\overrightarrow{OA}=\frac{\lvert CD\rvert\overrightarrow{OB}+\lvert DB\rvert\overrightarrow{OC}+\lvert BC\rvert\overrightarrow{OD}}{\lvert BC\rvert+\lvert CD\rvert+\lvert DB\rvert}\\)
+当 $$A$$ 是三角形内心时，$$\overrightarrow{OA}=\frac{\lvert CD\rvert\overrightarrow{OB}+\lvert DB\rvert\overrightarrow{OC}+\lvert BC\rvert\overrightarrow{OD}}{\lvert BC\rvert+\lvert CD\rvert+\lvert DB\rvert}$$
 
-当 \\(O, A\\) 重合时，\\(\bm{0}=\lambda'\overrightarrow{OB}+\mu'\overrightarrow{OC}+\nu'\overrightarrow{OD}\\)
+当 $$O, A$$ 重合时，$$\bm{0}=\lambda'\overrightarrow{OB}+\mu'\overrightarrow{OC}+\nu'\overrightarrow{OD}$$
 
-当 \\(O\\) 在三角形的边上时，退化为定比分点之情形。
+当 $$O$$ 在三角形的边上时，退化为定比分点之情形。
 
-当 \\(O\\) 在三角形的顶点上时，退化为 \\(\overrightarrow{OB}=\overrightarrow{OB}\\)
+当 $$O$$ 在三角形的顶点上时，退化为 $$\overrightarrow{OB}=\overrightarrow{OB}$$
 
 ---
 
 重心定理：三条中线交于一点。
 
-> 证明：由**例 1.1.3** 知，\\(BE\\) 与 \\(AD\\) 的交点 \\(G\\) 满足 \\(\overrightarrow{AG}=\frac{2}{3}\overrightarrow{AD}\\)
+> 证明：由**例 1.1.3** 知，$$BE$$ 与 $$AD$$ 的交点 $$G$$ 满足 $$\overrightarrow{AG}=\frac{2}{3}\overrightarrow{AD}$$
 >
-> 同理，另一条中线与 \\(AD\\) 的交点 \\(G'\\) 满足 \\(\overrightarrow{AG'}=\frac{2}{3}\overrightarrow{AD}\\)
+> 同理，另一条中线与 $$AD$$ 的交点 $$G'$$ 满足 $$\overrightarrow{AG'}=\frac{2}{3}\overrightarrow{AD}$$
 >
-> 故 \\(G\\) 与 \\(G'\\) 是同一点。
+> 故 $$G$$ 与 $$G'$$ 是同一点。
 
 ### 1.4&emsp;向量的向量积
 
 #### 1.4.1&emsp;向量积的定义与性质
 
-（直角三棱锥的斜面面积的平方是其他三个面面积的平方和）在直角三棱锥 \\(O-ABC\\) 中，\\(A^2\left(\triangle ABC\right)=A^2\left(\triangle OAB\right)+A^2\left(\triangle OBC\right)+A^2\left(\triangle OCA\right)\\)
+（直角三棱锥的斜面面积的平方是其他三个面面积的平方和）在直角三棱锥 $$O-ABC$$ 中，$$A^2\left(\triangle ABC\right)=A^2\left(\triangle OAB\right)+A^2\left(\triangle OBC\right)+A^2\left(\triangle OCA\right)$$
 
-> 证明：记 \\(\bm{a}=\overrightarrow{OA}, \bm{b}=\overrightarrow{OB}, \bm{c}=\overrightarrow{OC}, a=\lvert\bm{a}\rvert, b=\lvert\bm{b}\rvert, c=\lvert\bm{c}\rvert\\)
+> 证明：记 $$\bm{a}=\overrightarrow{OA}, \bm{b}=\overrightarrow{OB}, \bm{c}=\overrightarrow{OC}, a=\lvert\bm{a}\rvert, b=\lvert\bm{b}\rvert, c=\lvert\bm{c}\rvert$$
 >
-> 则 \\(\overrightarrow{AB}=\bm{b}-\bm{a}, \overrightarrow{AC}=\bm{c}-\bm{a}, A\left(\triangle OAB\right)=\frac{1}{2}ab, A\left(\triangle OBC\right)=\frac{1}{2}bc, A\left(\triangle OCA\right)=\frac{1}{2}ac\\)
+> 则 $$\overrightarrow{AB}=\bm{b}-\bm{a}, \overrightarrow{AC}=\bm{c}-\bm{a}, A\left(\triangle OAB\right)=\frac{1}{2}ab, A\left(\triangle OBC\right)=\frac{1}{2}bc, A\left(\triangle OCA\right)=\frac{1}{2}ac$$
 >
-> \\(A^2\left(\triangle ABC\right)=\lvert\frac{1}{2}\left(\bm{b}\times\bm{c}-\bm{b}\times\bm{a}-\bm{a}\times\bm{c}\right)\rvert^2\\)
+> $$A^2\left(\triangle ABC\right)=\lvert\frac{1}{2}\left(\bm{b}\times\bm{c}-\bm{b}\times\bm{a}-\bm{a}\times\bm{c}\right)\rvert^2$$
 >
-> 由于 \\(\bm{a}, \bm{b}, \bm{c}\\) 两两垂直，于是 \\(\bm{b}\times\bm{c}, \bm{b}\times\bm{a}, \bm{a}\times\bm{c}\\) 两两垂直，所以
+> 由于 $$\bm{a}, \bm{b}, \bm{c}$$ 两两垂直，于是 $$\bm{b}\times\bm{c}, \bm{b}\times\bm{a}, \bm{a}\times\bm{c}$$ 两两垂直，所以
 >
-> \\(A^2\left(\triangle ABC\right)=\frac{1}{4}\left(\lvert\bm{b}\times\bm{c}\rvert^2+\lvert\bm{b}\times\bm{a}\rvert^2+\lvert\bm{a}\times\bm{c}\rvert^2\right)=\frac{1}{4}\left(b^2c^2+b^2a^2+a^2c^2\right)\\)
+> $$A^2\left(\triangle ABC\right)=\frac{1}{4}\left(\lvert\bm{b}\times\bm{c}\rvert^2+\lvert\bm{b}\times\bm{a}\rvert^2+\lvert\bm{a}\times\bm{c}\rvert^2\right)=\frac{1}{4}\left(b^2c^2+b^2a^2+a^2c^2\right)$$
 >
-> \\(=A^2\left(\triangle OAB\right)+A^2\left(\triangle OBC\right)+A^2\left(\triangle OCA\right)\\)
+> $$=A^2\left(\triangle OAB\right)+A^2\left(\triangle OBC\right)+A^2\left(\triangle OCA\right)$$
 
 #### 1.4.2&emsp;直角坐标系下向量积的计算
 
-三角形的三个顶点 \\(A\left(x_1, y_1, z_1\right), B\left(x_2, y_2, z_2\right), C\left(x_3, y_3, z_3\right)\\)，则 \\(A\left(\triangle ABC\right)=\frac{1}{2}\lvert\overrightarrow{AB}\times\overrightarrow{AC}\rvert\\)
+三角形的三个顶点 $$A\left(x_1, y_1, z_1\right), B\left(x_2, y_2, z_2\right), C\left(x_3, y_3, z_3\right)$$，则 $$A\left(\triangle ABC\right)=\frac{1}{2}\lvert\overrightarrow{AB}\times\overrightarrow{AC}\rvert$$
 
-特别地，当 \\(A=\left(x_1, y_1\right), B=\left(x_2, y_2\right), C=\left(x_3, y_3\right)\\) 时，
+特别地，当 $$A=\left(x_1, y_1\right), B=\left(x_2, y_2\right), C=\left(x_3, y_3\right)$$ 时，
 
 $$
 A\left(\triangle ABC\right)
@@ -233,7 +233,7 @@ y_1 & y_2 & y_3\\
 \end{vmatrix}\right\rvert
 $$
 
-同样地，四面体的四个顶点 \\(A\left(x_1, y_1, z_1\right), B\left(x_2, y_2, z_2\right), C\left(x_3, y_3, z_3\right), D\left(x_4, y_4, z_4\right)\\)，有
+同样地，四面体的四个顶点 $$A\left(x_1, y_1, z_1\right), B\left(x_2, y_2, z_2\right), C\left(x_3, y_3, z_3\right), D\left(x_4, y_4, z_4\right)$$，有
 
 $$
 V\left(ABCD\right)=\frac{1}{6}\left\lvert\begin{vmatrix}
@@ -250,13 +250,13 @@ $$
 
 #### 1.5.1&emsp;混合积的定义
 
-设不共面向量 \\(\bm{a}, \bm{b}, \bm{c}\\)，求 \\(\bm{x}\\) 满足 \\(\bm{a}\cdot\bm{x}=f, \bm{b}\cdot\bm{x}=g, \bm{c}\cdot\bm{x}=h\\)，其中 \\(f, g, h\\) 是给定的实数。
+设不共面向量 $$\bm{a}, \bm{b}, \bm{c}$$，求 $$\bm{x}$$ 满足 $$\bm{a}\cdot\bm{x}=f, \bm{b}\cdot\bm{x}=g, \bm{c}\cdot\bm{x}=h$$，其中 $$f, g, h$$ 是给定的实数。
 
-解：设 \\(\bm{x}=\lambda\bm{a}+\mu\bm{b}+\nu\bm{c}\\)，代入3个条件式得3个方程，解出 \\(\lambda, \mu, \nu\\) 即可。
+解：设 $$\bm{x}=\lambda\bm{a}+\mu\bm{b}+\nu\bm{c}$$，代入3个条件式得3个方程，解出 $$\lambda, \mu, \nu$$ 即可。
 
 上面的方法是最经典的方法，但极其难以计算。
 
-注意到 [\\(\rm{a}, \rm{b}, \rm{c}\\) 共面等价于 \\(\rm{a}\times\rm{b}, \rm{b}\times\rm{c}, \rm{c}\times\rm{a}\\) 共面](https://www.zhihu.com/question/450742288/answer/2362517022)，故设 \\(\bm{x}=\lambda\bm{a}\times\bm{b}+\mu\bm{b}\times\bm{c}+\nu\bm{c}\times\bm{a}\\)，则
+注意到 [$$\rm{a}, \rm{b}, \rm{c}$$ 共面等价于 $$\rm{a}\times\rm{b}, \rm{b}\times\rm{c}, \rm{c}\times\rm{a}$$ 共面](https://www.zhihu.com/question/450742288/answer/2362517022)，故设 $$\bm{x}=\lambda\bm{a}\times\bm{b}+\mu\bm{b}\times\bm{c}+\nu\bm{c}\times\bm{a}$$，则
 
 $$
 \bm{a}\cdot\bm{x}=\mu\bm{a}\cdot\bm{b}\times\bm{c}=f\implies\mu=\frac{f}{\bm{a}\cdot\bm{b}\times\bm{c}}
@@ -266,7 +266,7 @@ $$
 
 #### 1.7.2&emsp;复数的几何表示
 
-n倍角公式：利用 \\(\cos n\theta+i\sin n\theta=\left(\cos\theta+i\sin\theta\right)^n\\)
+n倍角公式：利用 $$\cos n\theta+i\sin n\theta=\left(\cos\theta+i\sin\theta\right)^n$$
 
 ## 2&emsp;空间解析几何
 
@@ -274,21 +274,21 @@ n倍角公式：利用 \\(\cos n\theta+i\sin n\theta=\left(\cos\theta+i\sin\thet
 
 #### 2.1.2&emsp;平面的方程
 
-parametric equation: \\(\overrightarrow{OP}=\overrightarrow{OA}+s\overrightarrow{AB}+t\overrightarrow{AC}\\), non-unique
+parametric equation: $$\overrightarrow{OP}=\overrightarrow{OA}+s\overrightarrow{AB}+t\overrightarrow{AC}$$, non-unique
 
-implicit equation (no parameters): \\(Ax+By+Cz+D=0\\), unique
+implicit equation (no parameters): $$Ax+By+Cz+D=0$$, unique
 
-**例 2.1.4** 已知三点，若求的是隐式方程，则可直接设 \\(\pi: Ax+By+Cz+D=0\\)，代入三点坐标解除一组 \\(A,B,C,D\\) 即可。
+**例 2.1.4** 已知三点，若求的是隐式方程，则可直接设 $$\pi: Ax+By+Cz+D=0$$，代入三点坐标解除一组 $$A,B,C,D$$ 即可。
 
 #### 2.1.5&emsp;两直线的位置关系
 
-\\(A,B,\bm{u},\bm{v}\\) 分别是两直线上的点与方向向量，*公垂线 \\(\overrightarrow{CD}\\) 为 \\(\overrightarrow{AB}\\) 在 \\(\bm{u}\times\bm{v}\\) 方向上的投影*。
+$$A,B,\bm{u},\bm{v}$$ 分别是两直线上的点与方向向量，*公垂线 $$\overrightarrow{CD}$$ 为 $$\overrightarrow{AB}$$ 在 $$\bm{u}\times\bm{v}$$ 方向上的投影*。
 
 $$
 \lvert\overrightarrow{CD}\rvert=\frac{\lvert\bm{u}\times\bm{v}\cdot\overrightarrow{AB}\rvert}{\lvert\bm{u}\times\bm{v}\rvert}
 $$
 
-所谓 *\\(\overrightarrow{AB}\\) 在 \\(\bm{u}\times\bm{v}\\) 方向上的投影*是指，在图 2.6 中，
+所谓 *$$\overrightarrow{AB}$$ 在 $$\bm{u}\times\bm{v}$$ 方向上的投影*是指，在图 2.6 中，
 
 $$
 \frac{\lvert\bm{u}\times\bm{v}\cdot\overrightarrow{AB}\rvert}{\lvert\bm{u}\times\bm{v}\rvert}=\frac{\lvert\bm{u}\times\bm{v}\cdot(\overrightarrow{AC}+\overrightarrow{CD}+\overrightarrow{DB})\rvert}{\lvert\bm{u}\times\bm{v}\rvert}=\frac{\lvert\bm{u}\times\bm{v}\cdot\overrightarrow{CD}\rvert}{\lvert\bm{u}\times\bm{v}\rvert}=\lvert\overrightarrow{CD}\rvert
@@ -308,9 +308,9 @@ f\left(x,y,z\right)=0\\
 g\left(x,y,z\right)=0
 \end{matrix}\right.
 $$
-，母线方向 \\(\bm{u}=\left(u_1,u_2,u_3\right)\\)
+，母线方向 $$\bm{u}=\left(u_1,u_2,u_3\right)$$
 
-设 \\(P\left(x,y,z\right)\\) 曲面上任意一点，\\(Q\left(x_0,y_0,z_0\right)\\) 是其对应的准线上的点，则
+设 $$P\left(x,y,z\right)$$ 曲面上任意一点，$$Q\left(x_0,y_0,z_0\right)$$ 是其对应的准线上的点，则
 
 $$
 \left\{\begin{matrix}
@@ -340,9 +340,9 @@ f\left(x,y,z\right)=0\\
 g\left(x,y,z\right)=0
 \end{matrix}\right.
 $$
-，顶点 \\(A\left(a_1,a_2,a_3\right)\\)
+，顶点 $$A\left(a_1,a_2,a_3\right)$$
 
-设 \\(P\left(x,y,z\right)\\) 曲面上任意一点，\\(Q\left(x_0,y_0,z_0\right)\\) 是其对应的准线上的点，故母线方向 \\(\bm{u}=\left(u_1,u_2,u_3\right)=\left(x_0-a_1,y_0-a_2,z_0-a_3\right)\\)
+设 $$P\left(x,y,z\right)$$ 曲面上任意一点，$$Q\left(x_0,y_0,z_0\right)$$ 是其对应的准线上的点，故母线方向 $$\bm{u}=\left(u_1,u_2,u_3\right)=\left(x_0-a_1,y_0-a_2,z_0-a_3\right)$$
 
 $$
 \left\{\begin{matrix}
@@ -402,9 +402,9 @@ $$
 0 & 1
 \end{bmatrix}
 $$
-，求 \\(\mathbf{A}^n\\)
+，求 $$\mathbf{A}^n$$
 
-解：当然可以用**数学归纳法**。这里提供一种巧法，设 \\(\mathbf{A}=\mathbf{I}+\mathbf{N},\\)
+解：当然可以用**数学归纳法**。这里提供一种巧法，设 $$\mathbf{A}=\mathbf{I}+\mathbf{N},$$
 $$
 \mathbf{N}=\begin{bmatrix}
 0 & 1\\
@@ -412,7 +412,7 @@ $$
 \end{bmatrix}
 $$
 
-显然，\\(\mathbf{N}^2=\mathbf{0}\\)，故 \\(\mathbf{N}^i=\mathbf{0}, i=2,3,4,\dots\\)
+显然，$$\mathbf{N}^2=\mathbf{0}$$，故 $$\mathbf{N}^i=\mathbf{0}, i=2,3,4,\dots$$
 
 $$
 \mathbf{A}^n=\left(\mathbf{I}+\mathbf{N}\right)^n=\binom{n}{0}\mathbf{I}+\binom{n}{1}\mathbf{I}\mathbf{N}=\begin{bmatrix}
@@ -434,9 +434,9 @@ $$
 0 & 0 & 0 & 1
 \end{bmatrix}
 $$
-，求 \\(\mathbf{A}^n, \mathbf{A}^{-1}\\)
+，求 $$\mathbf{A}^n, \mathbf{A}^{-1}$$
 
-解：将 \\(\mathbf{A}\\) 分块成
+解：将 $$\mathbf{A}$$ 分块成
 
 $$
 \mathbf{A}=\begin{bmatrix}
@@ -536,13 +536,13 @@ $$
 
 #### 4.3.2&emsp;行列式的展开式
 
-（**定理 4.3.4**）设 \\(\mathbf{A}=\left(a_{ij}\right)_{n\times n}\\)，利用行列式的完全展开式有
+（**定理 4.3.4**）设 $$\mathbf{A}=\left(a_{ij}\right)_{n\times n}$$，利用行列式的完全展开式有
 
 $$
 \det\left(\mathbf{A}^\mathrm{T}\right)=\sum_{\left(i_1,i_2,\dots,i_n\right)\in S_n}\left(-1\right)^{\tau\left(i_1,i_2,\dots,i_n\right)}a_{i_11}a_{i_22}\dots a_{i_nn}
 $$
 
-考虑上述展开式中的每一项，可以经过 \\(\tau\left(i_1,i_2,\dots,i_n\right)\\) 次对换把排列 \\(\left(i_1,i_2,\dots,i_n\right)\\) 变成 \\(\left(1,2,\dots,n\right)\\)。设这些对换把 \\(\left(1,2,\dots,n\right)\\) 变成 \\(\left(j_1,j_2,\dots,j_n\right)\\)，则
+考虑上述展开式中的每一项，可以经过 $$\tau\left(i_1,i_2,\dots,i_n\right)$$ 次对换把排列 $$\left(i_1,i_2,\dots,i_n\right)$$ 变成 $$\left(1,2,\dots,n\right)$$。设这些对换把 $$\left(1,2,\dots,n\right)$$ 变成 $$\left(j_1,j_2,\dots,j_n\right)$$，则
 
 $$
 \tau\left(i_1,i_2,\dots,i_n\right)=\tau\left(j_1,j_2,\dots,j_n\right)
@@ -550,9 +550,9 @@ $$
 
 > 证明：不妨使所有对换都发生在相邻元素间。
 >
-> 考虑 \\(a_{i_pp}\\) 与 \\(a_{i_qq}\\)（\\(p=q-1\\)），它们需要对换当且仅当 \\(i_p>i_q\\)
+> 考虑 $$a_{i_pp}$$ 与 $$a_{i_qq}$$（$$p=q-1$$），它们需要对换当且仅当 $$i_p>i_q$$
 >
-> 经过这次对换，新序列的 \\(\tau\left(i_1,i_2,\dots,i_n\right)\\) 减少了 1，\\(\tau\left(j_1,j_2,\dots,j_n\right)\\) 增大了 1。
+> 经过这次对换，新序列的 $$\tau\left(i_1,i_2,\dots,i_n\right)$$ 减少了 1，$$\tau\left(j_1,j_2,\dots,j_n\right)$$ 增大了 1。
 
 ## English-Chinese Terms Table
 
@@ -598,13 +598,14 @@ $$
 | Transpose | 转置 |
 | Conjugate matrix | 共轭矩阵 |
 | Trace | 迹 |
+| Adjugate matrix | 伴随 (adjunct) 矩阵 |
 
 ---
 
 ```text
-Febuary&March, 2022; Suzhou&Hefei, China;
+Febuary&March&April, 2022; Suzhou&Hefei, China;
 Dedicated to her with love.
 
 Please feel free to add a comment if you witness ANY error.
-Last modified on 3/12/2022, UPDATING...
+Last modified on 4/9/2022, UPDATING...
 ```
