@@ -42,7 +42,7 @@ ISBN 978-7-01-003441-6-01
 
 这里的论证逻辑并不严密：苏格拉底犯了错误类比谬误 (false analogy fallacy)。
 
-Informally known as the "apples and oranges" fallacy, a false analogy uses unsound comparisons. [[1]](https://en.wikipedia.org/wiki/Fallacy#False_analogy) A comparison of apples and oranges occurs when two items or groups of items are compared that cannot be practically compared, typically because of inherent, fundamental and/or qualitative differences between the items. [[2]](https://en.wikipedia.org/wiki/Apples_and_oranges)
+Informally known as the "apples and oranges" fallacy, a false analogy uses unsound comparisons.[$$^{[1]}$$](https://en.wikipedia.org/wiki/Fallacy#False_analogy) A comparison of apples and oranges occurs when two items or groups of items are compared that cannot be practically compared, typically because of inherent, fundamental and/or qualitative differences between the items.[$$^{[2]}$$](https://en.wikipedia.org/wiki/Apples_and_oranges)
 
 虽然人和马都是动物，但伤害马的人是多数并不能推出伤害人的也是多数。而且这两个事件并不能完全形成类比，因为动作施加方都是人。如要做到好的类比应考察马伤害马的情况。
 
@@ -78,7 +78,7 @@ Informally known as the "apples and oranges" fallacy, a false analogy uses unsou
 
 此外，人并不能像二极管那样，被单纯的分成“善人”与“恶人”。首先，每个人都既有“善”的部分，也有“恶”的部分；其次，对“善”与“恶”的价值判断可能在个体间有不小的差异，尤其是在灰色地带可能都不存在一种被广泛接受的“普世价值”，如著名的电车难题，拉杆究竟是“善举”还是“恶行”？
 
-（电车难题 [[3]](https://en.wikipedia.org/wiki/Trolley_problem)）There is a runaway trolley barreling down the railway tracks. Ahead, on the tracks, there are five people tied up and unable to move. The trolley is headed straight for them. You are standing some distance off in the train yard, next to a lever. If you pull this lever, the trolley will switch to a different set of tracks. However, you notice that there is one person on the side track. You have two (and only two) options:
+（电车难题[$$^{[3]}$$](https://en.wikipedia.org/wiki/Trolley_problem)）There is a runaway trolley barreling down the railway tracks. Ahead, on the tracks, there are five people tied up and unable to move. The trolley is headed straight for them. You are standing some distance off in the train yard, next to a lever. If you pull this lever, the trolley will switch to a different set of tracks. However, you notice that there is one person on the side track. You have two (and only two) options:
 
 * Do nothing, in which case the trolley will kill the five people on the main track.
 * Pull the lever, diverting the trolley onto the side track where it will kill one person.
@@ -95,7 +95,7 @@ Which is the more ethical option? Or, more simply: What is the right thing to do
 
 > 只要我还有生命和能力，我将永不停止实践哲学，对你们进行规劝，像我遇到的每一个人阐明真理。我将以我通常的方式继续说，我的好朋友，你是一名雅典人，属于这个因其智慧和力量而著称于世的最伟大的城市。你只注意尽力获取金钱，以及名声和荣誉，而不注意思考真理、理智和灵魂的完善，难道你不感到可耻吗？(29:D)
 
-可耻吗？苏格拉底并没有解释可耻的原因，以至于他的论证并不充分。对雅典的穷人来说，他们所要关注的可能只有自己的温饱问题。古语云“衣食足而知荣辱，仓廪足而知礼节”，马斯洛需求层次理论也指出 [[4]](https://en.wikipedia.org/wiki/Maslow's_hierarchy_of_needs)，生理的需要 (physiological need) 和安全需要 (safety need) 是最底层的需要，它们在人的需要中最重要，最有力量。只有当人们满足了这些底层基础后，才会考虑上层建筑，而认知需求 (cognitive needs) 和自我实现的需要 (self-actualization need) 都位于金字塔的顶端，雅典的穷人不会去考虑这么多，即使是生产力大大提高的当今世界，能有机会拥有这些需要的人也并不多。这些穷人大多像蚂蚁一样忙于生计，在拥有短暂的闲暇时，他们可能会用娱乐的方式放松身心，而不是去考虑这些对他们来说高深莫测、没有实用价值的东西。我认为这些人更多的是可怜，而非可耻——他们的思维被生活所困。
+可耻吗？苏格拉底并没有解释可耻的原因，以至于他的论证并不充分。对雅典的穷人来说，他们所要关注的可能只有自己的温饱问题。古语云“衣食足而知荣辱，仓廪足而知礼节”，马斯洛需求层次理论也指出[$$^{[4]}$$](https://en.wikipedia.org/wiki/Maslow's_hierarchy_of_needs)，生理的需要 (physiological need) 和安全需要 (safety need) 是最底层的需要，它们在人的需要中最重要，最有力量。只有当人们满足了这些底层基础后，才会考虑上层建筑，而认知需求 (cognitive needs) 和自我实现的需要 (self-actualization need) 都位于金字塔的顶端，雅典的穷人不会去考虑这么多，即使是生产力大大提高的当今世界，能有机会拥有这些需要的人也并不多。这些穷人大多像蚂蚁一样忙于生计，在拥有短暂的闲暇时，他们可能会用娱乐的方式放松身心，而不是去考虑这些对他们来说高深莫测、没有实用价值的东西。我认为这些人更多的是可怜，而非可耻——他们的思维被生活所困。
 
 对雅典不愁温饱的小康或富人来说，他们确有这些需要，但这也不意味着他们必须花许多精力去“思考真理、理智和灵魂的完善”。他们至少有三点理由：首先，这些哲思的实用性过低。其次，这些问题没有一个很好的解答，思考它们容易陷于困境。最后，沉迷于这些问题可能会使人忧郁，甚至感受不到人生的意义。相比较而言，更多人还是选择了世俗的、快乐的生活，不过，这种选择一定要受到批判吗？
 
@@ -107,7 +107,7 @@ Which is the more ethical option? Or, more simply: What is the right thing to do
 
 这里苏格拉底形象地阐述了他的作用，虽然有自吹自擂的嫌疑，但逻辑是清楚的，结论是振聋发聩的。
 
-鲁迅就是这种敲钟人，他在《呐喊》中的自序 [[5]](https://baike.baidu.com/item/%E3%80%8A%E5%91%90%E5%96%8A%E3%80%8B%E8%87%AA%E5%BA%8F/8508885) 与这段话有异曲同工之妙：“假如一间铁屋子，是绝无窗户而万难破毁的，里面有许多熟睡的人们，不久都要闷死了（……）现在你大嚷起来，惊起了较为清醒的几个人（……）几个人既然起来，你不能说决没有毁坏这铁屋的希望。”“在我自己，本以为现在是已经并非一个切迫而不能已于言的人了，但或者也还未能忘怀于当日自己的寂寞的悲哀罢，所以有时候仍不免呐喊几声，聊以慰藉那在寂寞里奔驰的猛士，使他不惮于前驱。”
+鲁迅就是这种敲钟人，他在《呐喊》中的自序[$$^{[5]}$$](https://baike.baidu.com/item/%E3%80%8A%E5%91%90%E5%96%8A%E3%80%8B%E8%87%AA%E5%BA%8F/8508885)与这段话有异曲同工之妙：“假如一间铁屋子，是绝无窗户而万难破毁的，里面有许多熟睡的人们，不久都要闷死了（……）现在你大嚷起来，惊起了较为清醒的几个人（……）几个人既然起来，你不能说决没有毁坏这铁屋的希望。”“在我自己，本以为现在是已经并非一个切迫而不能已于言的人了，但或者也还未能忘怀于当日自己的寂寞的悲哀罢，所以有时候仍不免呐喊几声，聊以慰藉那在寂寞里奔驰的猛士，使他不惮于前驱。”
 
 > 你们可以想一想我的所作所为符合人的天性吗？放弃自己的私事，多年来蒙受抛弃家人的耻辱，自己忙于用所有时间为你们做事，像一名父亲或长兄那样来看望你们每个人，敦促你们对美德进行思考。如果我从中得到什么享受，或者如果我的良好建议是有报酬的，那么我的行为还会有其他一些解释，但是你们亲眼看到，尽管控告我的人厚颜无耻地说我犯有各种罪行，但有一件事他们不敢提出来控告我，这就是说我曾经勒索或收取报酬，因为他们没有任何证据。而我能为我的陈述的真实性提供证据，最令信服的证据就是我的贫穷。(31:B)
 >
