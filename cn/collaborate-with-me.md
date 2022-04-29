@@ -78,5 +78,5 @@ March, 2022; Hefei, China;
 Dedicated to my fantastic collaborators.
 
 Please feel free to add a comment if you witness ANY error.
-Last modified on 3/8/2022, UPDATING...
+Last modified on 3/8/2022.
 ```
