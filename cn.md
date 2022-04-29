@@ -10,6 +10,8 @@ title: 主页
 
 [陈发来线代听课笔记]({% link cn/linear-algebra-and-analytic-geometry.md %})
 
+[柏拉图《申辩篇》读书笔记]({% link cn/plato.md %})
+
 ---
 
 Posts are listed below.
