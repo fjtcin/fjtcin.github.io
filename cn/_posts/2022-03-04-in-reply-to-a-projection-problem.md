@@ -41,7 +41,7 @@ $$
 ---
 
 ```text
-March, 2022; Hefei, China;
+March, 2022; Hefei, China.
 
 Please feel free to add a comment if you witness ANY error.
 Last modified on 3/8/2022

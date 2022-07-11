@@ -20,7 +20,9 @@ title: 陈发来线代听课笔记
 第四章 第 10 课——行列式的计算① | 39:50 行列式计算严重错误
 ```
 
-各个教师在授课时都会讲些教材上没有的内容，即所谓的“拓展内容”。本文提取了陈发来教授的所有拓展内容，读者应结合书本阅读。[陈发来教授](http://staff.ustc.edu.cn/~chenfl/)是[中国科学技术大学](https://ustc.edu.cn/)的名教师，在[评课社区](https://icourse.club/course/5479/)好评如潮。读者在读完教材和本文后就完全掌握了课堂的所有知识，无需再看视频，节约了时间。
+鉴于《线性代数与解析几何》的第一、二章前几年被移出课堂，我根据[陈发来曾经的上课视频](https://www.icourses.cn/sCourse/course_3066.html)整理了这些内容在以往课堂上的额外教学，即书本之外的“扩展内容”。
+
+同时，这里给出了全书所有数学术语的英文，作为本文的附录。
 
 ## 目录
 {:.no_toc}
@@ -389,172 +391,7 @@ This concept is useful when considering degenerate conics, which may include the
 
 [单（双）叶双曲面与平面的交线也可以是抛物线。](https://math.stackexchange.com/questions/1253857)
 
-## 4&emsp;矩阵与行列式
-
-### 4.2&emsp;矩阵的运算
-
-#### 4.2.2&emsp;矩阵的乘法
-
-设
-$$
-\mathbf{A}=\begin{bmatrix}
-1 & 1\\
-0 & 1
-\end{bmatrix}
-$$
-，求 $$\mathbf{A}^n$$
-
-解：当然可以用**数学归纳法**。这里提供一种巧法，设 $$\mathbf{A}=\mathbf{I}+\mathbf{N},$$
-$$
-\mathbf{N}=\begin{bmatrix}
-0 & 1\\
-0 & 0
-\end{bmatrix}
-$$
-
-显然，$$\mathbf{N}^2=\mathbf{0}$$，故 $$\mathbf{N}^i=\mathbf{0}, i=2,3,4,\dots$$
-
-$$
-\mathbf{A}^n=\left(\mathbf{I}+\mathbf{N}\right)^n=\binom{n}{0}\mathbf{I}+\binom{n}{1}\mathbf{I}\mathbf{N}=\begin{bmatrix}
-1 & n\\
-0 & 1
-\end{bmatrix}
-$$
-
-注意，只有满足乘法交换律的矩阵相加才能二项式展开（这里是与单位向量相加的情况）。
-
-#### 4.2.5&emsp;分块运算
-
-（**例 4.2.11**）设
-$$
-\mathbf{A}=\begin{bmatrix}
-1 & 1 & 1 & 0\\
-0 & 1 & 0 & 1\\
-0 & 0 & 1 & 1\\
-0 & 0 & 0 & 1
-\end{bmatrix}
-$$
-，求 $$\mathbf{A}^n, \mathbf{A}^{-1}$$
-
-解：将 $$\mathbf{A}$$ 分块成
-
-$$
-\mathbf{A}=\begin{bmatrix}
-\mathbf{B} & \mathbf{I}\\
-\mathbf{0} & \mathbf{B}
-\end{bmatrix},
-\mathbf{B}=\begin{bmatrix}
-1 & 1\\
-0 & 1
-\end{bmatrix}
-$$
-
-类似于 [4.2.2](#422矩阵的乘法) 中的解法，
-
-$$
-\mathbf{A}^n
-=\left(\begin{bmatrix}
-\mathbf{B} & \mathbf{0}\\
-\mathbf{0} & \mathbf{B}
-\end{bmatrix}+\begin{bmatrix}
-\mathbf{0} & \mathbf{I}\\
-\mathbf{0} & \mathbf{0}
-\end{bmatrix}
-\right)^n
-=\binom{n}{0}\begin{bmatrix}
-\mathbf{B} & \mathbf{0}\\
-\mathbf{0} & \mathbf{B}
-\end{bmatrix}^n+\binom{n}{1}\begin{bmatrix}
-\mathbf{B} & \mathbf{0}\\
-\mathbf{0} & \mathbf{B}
-\end{bmatrix}^{n-1}
-\begin{bmatrix}
-\mathbf{0} & \mathbf{I}\\
-\mathbf{0} & \mathbf{0}
-\end{bmatrix}
-=\begin{bmatrix}
-\mathbf{B}^n & \mathbf{0}\\
-\mathbf{0} & \mathbf{B}^n
-\end{bmatrix}+
-\begin{bmatrix}
-\mathbf{0} & n\mathbf{B}^{n-1}\\
-\mathbf{0} & \mathbf{0}
-\end{bmatrix}
-=\begin{bmatrix}
-\mathbf{B}^n & n\mathbf{B}^{n-1}\\
-\mathbf{0} & \mathbf{B}^n
-\end{bmatrix}
-$$
-
-设
-$$
-\mathbf{A}^{-1}=\begin{bmatrix}
-\mathbf{X_{11}} & \mathbf{X_{12}}\\
-\mathbf{X_{21}} & \mathbf{X_{22}}
-\end{bmatrix}
-$$
-，则
-$$
-\begin{bmatrix}
-\mathbf{X_{11}} & \mathbf{X_{12}}\\
-\mathbf{X_{21}} & \mathbf{X_{22}}
-\end{bmatrix}
-\begin{bmatrix}
-\mathbf{B} & \mathbf{I}\\
-\mathbf{0} & \mathbf{B}
-\end{bmatrix}
-=\begin{bmatrix}
-\mathbf{X_{11}B} & \mathbf{X_{11}}+\mathbf{X_{12}}\mathbf{B}\\
-\mathbf{X_{21}B} & \mathbf{X_{21}}+\mathbf{X_{22}}\mathbf{B}
-\end{bmatrix}
-=\begin{bmatrix}
-\mathbf{I} & \mathbf{0}\\
-\mathbf{0} & \mathbf{I}
-\end{bmatrix}
-$$
-，故
-$$
-\left\{\begin{matrix}
-\mathbf{X_{11}}=\mathbf{B}^{-1}\\
-\mathbf{X_{12}}=-\mathbf{B}^{-2}\\
-\mathbf{X_{21}}=\mathbf{0}\\
-\mathbf{X_{22}}=\mathbf{B}^{-1}
-\end{matrix}\right.
-$$
-，即
-
-$$
-\mathbf{A}^{-1}=\begin{bmatrix}
-1 & -1 & -1 & 2\\
-0 & 1 & 0 & -1\\
-0 & 0 & 1 & -1\\
-0 & 0 & 0 & 1
-\end{bmatrix}
-$$
-
-### 4.3&emsp;行列式
-
-#### 4.3.2&emsp;行列式的展开式
-
-（**定理 4.3.4**）设 $$\mathbf{A}=\left(a_{ij}\right)_{n\times n}$$，利用行列式的完全展开式有
-
-$$
-\det\left(\mathbf{A}^\mathrm{T}\right)=\sum_{\left(i_1,i_2,\dots,i_n\right)\in S_n}\left(-1\right)^{\tau\left(i_1,i_2,\dots,i_n\right)}a_{i_11}a_{i_22}\dots a_{i_nn}
-$$
-
-考虑上述展开式中的每一项，可以经过 $$\tau\left(i_1,i_2,\dots,i_n\right)$$ 次对换把排列 $$\left(i_1,i_2,\dots,i_n\right)$$ 变成 $$\left(1,2,\dots,n\right)$$。设这些对换把 $$\left(1,2,\dots,n\right)$$ 变成 $$\left(j_1,j_2,\dots,j_n\right)$$，则
-
-$$
-\tau\left(i_1,i_2,\dots,i_n\right)=\tau\left(j_1,j_2,\dots,j_n\right)
-$$
-
-> 证明：不妨使所有对换都发生在相邻元素间。
->
-> 考虑 $$a_{i_pp}$$ 与 $$a_{i_qq}$$（$$p=q-1$$），它们需要对换当且仅当 $$i_p>i_q$$
->
-> 经过这次对换，新序列的 $$\tau\left(i_1,i_2,\dots,i_n\right)$$ 减少了 1，$$\tau\left(j_1,j_2,\dots,j_n\right)$$ 增大了 1。
-
-## English-Chinese Terms Table
+## Appendix: English-Chinese Terms Table
 
 读者可按 `Ctrl + F` 检索。
 
@@ -603,7 +440,7 @@ $$
 ---
 
 ```text
-Febuary&March&April, 2022; Suzhou&Hefei, China;
+Febuary & March & April & July, 2022; Suzhou & Hefei, China.
 Dedicated to her with love.
 
 Please feel free to add a comment if you witness ANY error.

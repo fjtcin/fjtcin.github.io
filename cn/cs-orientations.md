@@ -39,7 +39,7 @@ title: CS Orientations
 ---
 
 ```text
-Febuary, 2022; Hefei, China;
+Febuary, 2022; Hefei, China.
 
 Please feel free to add a comment if you have ANY suggestion.
 Last modified on 2/20/2022

@@ -172,7 +172,7 @@ Which is the more ethical option? Or, more simply: What is the right thing to do
 ---
 
 ```text
-Febuary&April, 2022; Hefei, China;
+Febuary & April, 2022; Hefei, China.
 
 Please feel free to add a comment if you have ANY idea.
 Last modified on 4/10/2022.

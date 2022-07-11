@@ -74,7 +74,7 @@ git push
 ---
 
 ```text
-March, 2022; Hefei, China;
+March, 2022; Hefei, China.
 Dedicated to my fantastic collaborators.
 
 Please feel free to add a comment if you witness ANY error.
