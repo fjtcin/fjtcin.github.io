@@ -10,6 +10,8 @@ title: Home Page
 
 [About Me]({% link about.md %})
 
+[Linear Algebra Calculator (under construction)](https://fjtcin.github.io/Linear-Algebra-Calculator/)
+
 ---
 
 Posts are listed below.
